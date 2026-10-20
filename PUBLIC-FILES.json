@@ -3,6 +3,11 @@
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
+      "bytes": 83,
+      "path": ".gitattributes",
+      "sha256": "a5827bf08331c5de81ee74d1165c672f719435a1bbc5e25b208bd5f0ae679b68"
+    },
+    {
       "bytes": 166,
       "path": ".gitignore",
       "sha256": "6a5b24ed9238cc7ad6c72a24e34bb770e21183c5c6de469b3518782b613e4308"
