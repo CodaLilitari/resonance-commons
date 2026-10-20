@@ -1,0 +1,39 @@
+{
+  "schema": "resonance-commons.route-profile.v1",
+  "version": "0.1.0",
+  "adapter_id": "muse",
+  "display_name": "Muse",
+  "route_label": "Muse normal sidechat",
+  "accepted_model_labels": [],
+  "snapshot": {
+    "date": "2026-10-20",
+    "access_status": "available_in_observed_session",
+    "run_status": "bounded_runtime_probe_basis_corrected_for_observed_run",
+    "native_audio_status": "self_reported_unavailable",
+    "evidence": "WAV bytes and reported hashes matched the supplied fixture. A returned second-version result corrected the metric basis and its values were independently reproduced. This establishes only that bounded run. Runtime execution is distinct from native audio processing, which the route reported unavailable.",
+    "provenance": "Sanitized coordinator observation; recheck current route before a new run."
+  },
+  "required_readiness_gates": [
+    "route_access",
+    "evidence_loaded",
+    "metric_basis_confirmed"
+  ],
+  "handoff": {
+    "format": "structured evidence files; optional exact-hash PCM16 WAV for an explicitly requested runtime probe",
+    "artifact_only_supported_by_adapter": true,
+    "optional_source_wav": true,
+    "maximum_total_bytes": 10485760,
+    "maximum_source_seconds": 30,
+    "automatic_upload": false,
+    "automatic_provider_execution": false
+  },
+  "runtime": "Observed session reports Python 3.12.3 on Linux x86_64, NumPy 1.26.4, SciPy 1.11.4, FFmpeg 8.1.2 and matplotlib 3.6.3. Python wave byte processing and returned JSON artifacts were demonstrated. soundfile, librosa and onnxruntime were reported absent. Project source execution, model loading, wheel installation and PNG return remain untested. CPython 3.13-specific binary wheels are incompatible with this CPython 3.12 route. Reverify the active session before relying on these observations.",
+  "route_specific_rule": "The observed half-sum/downmix calculation was independently reproduced and the returned second-version result corrected source-versus-derivative labels for that run. Reconfirm each source channel and metric basis for every new packet. Label 0.5/0.5 stereo averaging and its amplitude loss; never rename a downmix metric as source RMS.",
+  "claims": {
+    "native_audio_processing_enabled": false,
+    "measurements_require_exact_ledger_metric_id": true,
+    "interpretations_require_evidence_ids_and_spans": true,
+    "unavailable_music_model_branches_must_remain_unavailable": true
+  },
+  "follow_up": "Use the shared source-bound finite-time/channel probe contract; proposals are validated, never automatically executed."
+}

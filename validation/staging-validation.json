@@ -1,0 +1,146 @@
+{
+  "schema": "resonance-commons.staging-validation.v1",
+  "date": "2026-10-20",
+  "python_version": "3.13.15",
+  "platform": "win32",
+  "scope": "Local standard-library tests and CLI only; no provider contacted, no model executed, no network or dependency installation",
+  "source_suites": [
+    {
+      "source": "shared/tests/test_packet.py",
+      "tests_run": 29,
+      "passed": 28,
+      "skipped": [
+        {
+          "test": "test_symlink_file_and_parent_refused",
+          "reason": "Host cannot create symlinks: OSError"
+        }
+      ],
+      "failures": [],
+      "errors": [],
+      "successful": true
+    },
+    {
+      "source": "tests/test_routes.py",
+      "tests_run": 19,
+      "passed": 19,
+      "skipped": [],
+      "failures": [],
+      "errors": [],
+      "successful": true
+    }
+  ],
+  "public_cli_routes": [
+    {
+      "adapter_id": "grokbot",
+      "check_command_passed": true,
+      "prepare_command_passed": true,
+      "validate_unavailable_response_passed": true,
+      "configured_route_readiness": false,
+      "blocked_gates": [
+        "route_access",
+        "evidence_loaded"
+      ],
+      "handoff_bytes": 62202,
+      "handoff_sha256": "9a8b3410bb4e7bda476309234abe2b8b6a413d9417f33749ad0f03a0ac4f1c61",
+      "provider_contacted": false,
+      "native_audio_verified": false,
+      "delivery_status": "prepared-not-sent; temporary local test file removed"
+    },
+    {
+      "adapter_id": "muse",
+      "check_command_passed": true,
+      "prepare_command_passed": true,
+      "validate_unavailable_response_passed": true,
+      "configured_route_readiness": false,
+      "blocked_gates": [
+        "route_access",
+        "evidence_loaded",
+        "metric_basis_confirmed"
+      ],
+      "handoff_bytes": 63867,
+      "handoff_sha256": "bab92f3e1111df27290143e03ab435b8617e295db013690173414648f641592c",
+      "provider_contacted": false,
+      "native_audio_verified": false,
+      "delivery_status": "prepared-not-sent; temporary local test file removed"
+    },
+    {
+      "adapter_id": "chatgpt-6-pro",
+      "check_command_passed": true,
+      "prepare_command_passed": true,
+      "validate_unavailable_response_passed": true,
+      "configured_route_readiness": false,
+      "blocked_gates": [
+        "route_access",
+        "evidence_loaded",
+        "exact_model",
+        "new_dedicated_thread"
+      ],
+      "handoff_bytes": 62727,
+      "handoff_sha256": "3c766d8a5e88717c955b68523650b4fe6c58846cea7edcdc432321c5faa98b27",
+      "provider_contacted": false,
+      "native_audio_verified": false,
+      "delivery_status": "prepared-not-sent; temporary local test file removed"
+    },
+    {
+      "adapter_id": "claude-opus-5-5",
+      "check_command_passed": true,
+      "prepare_command_passed": true,
+      "validate_unavailable_response_passed": true,
+      "configured_route_readiness": false,
+      "blocked_gates": [
+        "route_access",
+        "evidence_loaded",
+        "exact_model"
+      ],
+      "handoff_bytes": 62432,
+      "handoff_sha256": "b4676f31806906fb84ea180b3fc76c7555dfe5bcd6890ce3cb3747a5345a990c",
+      "provider_contacted": false,
+      "native_audio_verified": false,
+      "delivery_status": "prepared-not-sent; temporary local test file removed"
+    },
+    {
+      "adapter_id": "codex-local",
+      "check_command_passed": true,
+      "prepare_command_passed": true,
+      "validate_unavailable_response_passed": true,
+      "configured_route_readiness": true,
+      "blocked_gates": [],
+      "handoff_bytes": 62650,
+      "handoff_sha256": "f54f0e40a9e882dd3b3de4da9b5c09931c1af1aac7f6822b407813b5f328f624",
+      "provider_contacted": false,
+      "native_audio_verified": false,
+      "delivery_status": "prepared-not-sent; temporary local test file removed"
+    }
+  ],
+  "shared_frozen_manifest_verified": true,
+  "shared_frozen_files_checked": 10,
+  "demo": {
+    "path": "shared/demo/resonance-commons-case-001-evidence.zip",
+    "bytes": 48646,
+    "sha256": "4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213"
+  },
+  "tested_source": [
+    {
+      "path": "shared/evidence_packet.py",
+      "sha256": "6f5f42928c59aaf0604795f9a41ee2c857b7b2e5a2c390fd56ea5e48a3c9a678"
+    },
+    {
+      "path": "tools/route_adapter.py",
+      "sha256": "1f58f197371e7aa837d95493153d1fdb747ca28b2ebd3af073fdbbbc6b78aa14"
+    },
+    {
+      "path": "tests/test_routes.py",
+      "sha256": "c27ca3583667de8e78674d2982c923a77b8f1dc81b5525c12ebac3ee4a6c9757"
+    },
+    {
+      "path": "validation/validate_staging.py",
+      "sha256": "c354b9f4ed648f1a1b587f6f02fcf80cced9852059e99f152c7e2ecb6d88da6d"
+    }
+  ],
+  "limitations": [
+    "Current route observation fields are caller testimony, not backend attestation.",
+    "Interpretation truth and musical quality are not established by response validation.",
+    "No remote adapter execution, native audio, model or Music Geometry capability is established.",
+    "Historical session and runtime observations require a fresh capability check per packet."
+  ]
+}

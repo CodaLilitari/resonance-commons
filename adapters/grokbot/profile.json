@@ -1,0 +1,38 @@
+{
+  "schema": "resonance-commons.route-profile.v1",
+  "version": "0.1.0",
+  "adapter_id": "grokbot",
+  "display_name": "Grokbot",
+  "route_label": "Grokbot native application",
+  "accepted_model_labels": [],
+  "snapshot": {
+    "date": "2026-10-20",
+    "access_status": "unavailable_to_current_operator",
+    "run_status": "not_sent",
+    "native_audio_status": "not_verified",
+    "evidence": "The intended native application could not be accessed through the available control surface. No provider response was obtained.",
+    "provenance": "Sanitized coordinator observation; recheck current route before a new run."
+  },
+  "required_readiness_gates": [
+    "route_access",
+    "evidence_loaded"
+  ],
+  "handoff": {
+    "format": "text-first evidence; add plots only after the actual application attachment surface is verified",
+    "artifact_only_supported_by_adapter": true,
+    "optional_source_wav": false,
+    "maximum_total_bytes": 10485760,
+    "maximum_source_seconds": 30,
+    "automatic_upload": false,
+    "automatic_provider_execution": false
+  },
+  "runtime": "No executable runtime has been verified for this route.",
+  "route_specific_rule": "Use the actual Grokbot route. Ordinary Grok chat, Grok Build and an xAI API endpoint are separate routes and cannot silently substitute. Return unavailable if the actual application cannot be operated.",
+  "claims": {
+    "native_audio_processing_enabled": false,
+    "measurements_require_exact_ledger_metric_id": true,
+    "interpretations_require_evidence_ids_and_spans": true,
+    "unavailable_music_model_branches_must_remain_unavailable": true
+  },
+  "follow_up": "Use the shared source-bound finite-time/channel probe contract; proposals are validated, never automatically executed."
+}

@@ -1,0 +1,13 @@
+Resonance Commons - ChatGPT 6 Pro adapter
+
+Create the required new dedicated conversation only when the exact requested model is usable. Another model or an existing unrelated conversation does not satisfy this adapter. An observed picker label is not backend attestation.
+
+No runtime or media processing has been verified for the required new conversation.
+
+Read the exact packet ledger and fixed instructions. Verify packet and source SHA-256 bindings. Declare which numeric/text/plot/audio bytes you actually inspected.
+Keep original source bytes, channel-preserving decoded PCM16 and any mono derivative separate. Preserve decoded-stream time anchors; parent/container origin remains unknown.
+Measured values must use an exact metric ID and value from request.json. Interpretations need valid evidence IDs, a finite in-range source-time span, channel indices, and stated uncertainty.
+Native audio processing is not enabled by this adapter. Do not claim listening or native processing from text, plots, an accepted attachment or a runtime byte probe.
+No tempo, pitch, harmony, instrument recognition, ASR or learned-event branch is executed here. Keep unavailable branch statuses explicit.
+If information is missing, return the source-bound follow-up proposal contract. Never return shell commands, URLs, arbitrary file paths or an automatic upload instruction.
+Use response-template.json as the exact output envelope. Structural acceptance is not factual or musical-quality validation.

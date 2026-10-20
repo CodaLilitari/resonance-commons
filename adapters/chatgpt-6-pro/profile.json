@@ -1,0 +1,43 @@
+{
+  "schema": "resonance-commons.route-profile.v1",
+  "version": "0.1.0",
+  "adapter_id": "chatgpt-6-pro",
+  "display_name": "ChatGPT 6 Pro",
+  "route_label": "ChatGPT new dedicated project conversation",
+  "accepted_model_labels": [
+    "6 Pro",
+    "GPT-6 Pro"
+  ],
+  "snapshot": {
+    "date": "2026-10-20",
+    "access_status": "requested_model_temporarily_unavailable",
+    "run_status": "new_dedicated_conversation_not_created",
+    "native_audio_status": "not_verified",
+    "evidence": "The requested model was unavailable in the observed account session; no new target conversation or provider test was performed.",
+    "provenance": "Sanitized coordinator observation; recheck current route before a new run."
+  },
+  "required_readiness_gates": [
+    "route_access",
+    "evidence_loaded",
+    "exact_model",
+    "new_dedicated_thread"
+  ],
+  "handoff": {
+    "format": "a new dedicated project conversation with the exact requested model; attachment support must be checked there",
+    "artifact_only_supported_by_adapter": true,
+    "optional_source_wav": false,
+    "maximum_total_bytes": 10485760,
+    "maximum_source_seconds": 30,
+    "automatic_upload": false,
+    "automatic_provider_execution": false
+  },
+  "runtime": "No runtime or media processing has been verified for the required new conversation.",
+  "route_specific_rule": "Create the required new dedicated conversation only when the exact requested model is usable. Another model or an existing unrelated conversation does not satisfy this adapter. An observed picker label is not backend attestation.",
+  "claims": {
+    "native_audio_processing_enabled": false,
+    "measurements_require_exact_ledger_metric_id": true,
+    "interpretations_require_evidence_ids_and_spans": true,
+    "unavailable_music_model_branches_must_remain_unavailable": true
+  },
+  "follow_up": "Use the shared source-bound finite-time/channel probe contract; proposals are validated, never automatically executed."
+}

@@ -1,0 +1,215 @@
+{
+  "documentation_revision": 2,
+  "files": [
+    {
+      "bytes": 166,
+      "mode": 420,
+      "path": ".gitignore",
+      "sha256": "6a5b24ed9238cc7ad6c72a24e34bb770e21183c5c6de469b3518782b613e4308"
+    },
+    {
+      "bytes": 859,
+      "mode": 420,
+      "path": "NOTICE.txt",
+      "sha256": "f161a45ca59c6abf9afa94a2361c454cccc2e9f94be5e606a4e29059e9f69da4"
+    },
+    {
+      "bytes": 8417,
+      "mode": 420,
+      "path": "README.md",
+      "sha256": "e669238a3be3fbee1335e7220720d3b6b01dbcc814869a4981714dff4400688c"
+    },
+    {
+      "bytes": 2281,
+      "mode": 420,
+      "path": "adapters/chatgpt-6-pro/README.md",
+      "sha256": "1e9c4721a2f5daaa6fc66ed99f75440c01d37f5659eeed042e68168575fe7384"
+    },
+    {
+      "bytes": 1503,
+      "mode": 420,
+      "path": "adapters/chatgpt-6-pro/instructions.txt",
+      "sha256": "d1210d80285e9e28ed64f67f81b734021175baf3cff46b2c798423949a135e29"
+    },
+    {
+      "bytes": 2013,
+      "mode": 420,
+      "path": "adapters/chatgpt-6-pro/profile.json",
+      "sha256": "aa6ea6082bc8a5c2729e671113e69f1ebaf7c36a9786ba78235ba7bc26ea0ffb"
+    },
+    {
+      "bytes": 2182,
+      "mode": 420,
+      "path": "adapters/claude-opus-5-5/README.md",
+      "sha256": "1643eaf06d41643ab067bc61752a23146b71a4bc1508eadffa2749987dd45d49"
+    },
+    {
+      "bytes": 1480,
+      "mode": 420,
+      "path": "adapters/claude-opus-5-5/instructions.txt",
+      "sha256": "22251a871cdebffafde5905a48e56d8c1c5306151805115701868f058c7fdfce"
+    },
+    {
+      "bytes": 1878,
+      "mode": 420,
+      "path": "adapters/claude-opus-5-5/profile.json",
+      "sha256": "ecd55dc46a00cf0897a6cce11084095a88f8abac2fd97a98613f55fe4e754d76"
+    },
+    {
+      "bytes": 2406,
+      "mode": 420,
+      "path": "adapters/codex-local/README.md",
+      "sha256": "d97ed3a3fbf82e7f4b89f66b4f78563c2ac9fc99cab9236a9571b1ad99198e33"
+    },
+    {
+      "bytes": 1623,
+      "mode": 420,
+      "path": "adapters/codex-local/instructions.txt",
+      "sha256": "76ab0e6e49f82708fab4d1bdab7bff8e327f5eeb2a111b7782c6940f95aaaed5"
+    },
+    {
+      "bytes": 2030,
+      "mode": 420,
+      "path": "adapters/codex-local/profile.json",
+      "sha256": "05232c3bfeb4521ae005bce4b1d57ec46675b412d3c49cd51860d0273a0f9388"
+    },
+    {
+      "bytes": 2155,
+      "mode": 420,
+      "path": "adapters/grokbot/README.md",
+      "sha256": "36ec70874346642f68a753d1e62b0fe99f943ad9ff67de4670e53cb3de692688"
+    },
+    {
+      "bytes": 1441,
+      "mode": 420,
+      "path": "adapters/grokbot/instructions.txt",
+      "sha256": "709113f97ac586f653793c16caf7f3808f726de065f2eebb662f4f36c3297edb"
+    },
+    {
+      "bytes": 1793,
+      "mode": 420,
+      "path": "adapters/grokbot/profile.json",
+      "sha256": "92b09a98294604e2c2e5bf634a2cc2a85b67c13d7e02f3c5f87435562b5d7c57"
+    },
+    {
+      "bytes": 2951,
+      "mode": 420,
+      "path": "adapters/muse/README.md",
+      "sha256": "092a589fd6feb53255355e644d67328cdf83bdb3b9e0d7a21a39c82a4be46b47"
+    },
+    {
+      "bytes": 2007,
+      "mode": 420,
+      "path": "adapters/muse/instructions.txt",
+      "sha256": "3d57d691599e4b674945339091c402592b061a963dcb364a5bd7a26886cec25d"
+    },
+    {
+      "bytes": 2616,
+      "mode": 420,
+      "path": "adapters/muse/profile.json",
+      "sha256": "d4045c6d7315fd2aff898e162253e0778f977faf1c5825285f8e9d6952cf0cd8"
+    },
+    {
+      "bytes": 1919,
+      "mode": 420,
+      "path": "publication/gitlab-publication-plan.json",
+      "sha256": "68d62d40c94f06c6b9d7d9ce99a35149ea79e877aa8146448538c2f2d6147b28"
+    },
+    {
+      "bytes": 2442,
+      "mode": 420,
+      "path": "shared/FILES.sha256.json",
+      "sha256": "f6d985384247bcd3c02d7439099676132d97e227d190b7e066bf4727992c5c5e"
+    },
+    {
+      "bytes": 864,
+      "mode": 420,
+      "path": "shared/NOTICE.txt",
+      "sha256": "7240e6361010cde95b60d2048152a0888d1f3ec3d44ec5ee0c193fe9395eeef6"
+    },
+    {
+      "bytes": 9332,
+      "mode": 420,
+      "path": "shared/README.md",
+      "sha256": "221d880ba376fcb886d5d851404f0b35377d7ec756b41f5b9bb840515c628442"
+    },
+    {
+      "bytes": 284,
+      "mode": 420,
+      "path": "shared/demo/SHA256SUMS.txt",
+      "sha256": "b7ec0deb835deb1f1402d14b91ef724064909ea8c6d64136190bde5f69398da7"
+    },
+    {
+      "bytes": 337,
+      "mode": 420,
+      "path": "shared/demo/follow-up-example.json",
+      "sha256": "450789e728c4502c98fa060a9169673b3a0223b42fe899610891d190aba2e5f5"
+    },
+    {
+      "bytes": 2570,
+      "mode": 420,
+      "path": "shared/demo/input-snapshot.json",
+      "sha256": "907ebbcd85ab6712ee9b8948629a8d53f7a6552814bd0cec8631942474ff69e0"
+    },
+    {
+      "bytes": 48646,
+      "mode": 420,
+      "path": "shared/demo/resonance-commons-case-001-evidence.zip",
+      "sha256": "4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213"
+    },
+    {
+      "bytes": 36757,
+      "mode": 420,
+      "path": "shared/evidence_packet.py",
+      "sha256": "6f5f42928c59aaf0604795f9a41ee2c857b7b2e5a2c390fd56ea5e48a3c9a678"
+    },
+    {
+      "bytes": 19306,
+      "mode": 420,
+      "path": "shared/tests/test_packet.py",
+      "sha256": "10d0b4cc7aee3a549fd18190d6e9047effd553d8f1d3a01ab71fd7d84e1f635d"
+    },
+    {
+      "bytes": 6964,
+      "mode": 420,
+      "path": "shared/validation/validate_existing.py",
+      "sha256": "779a0a334ee64359c4773ff52fc65e795e8919fa90fc546eb0b0d2e8324636e2"
+    },
+    {
+      "bytes": 5798,
+      "mode": 420,
+      "path": "shared/validation/validation-final.json",
+      "sha256": "736e19c85b96e59e06800cfbdf85d1711dae4f2af109165bf7674e23335bdc10"
+    },
+    {
+      "bytes": 13041,
+      "mode": 420,
+      "path": "tests/test_routes.py",
+      "sha256": "c27ca3583667de8e78674d2982c923a77b8f1dc81b5525c12ebac3ee4a6c9757"
+    },
+    {
+      "bytes": 20820,
+      "mode": 420,
+      "path": "tools/route_adapter.py",
+      "sha256": "1f58f197371e7aa837d95493153d1fdb747ca28b2ebd3af073fdbbbc6b78aa14"
+    },
+    {
+      "bytes": 5163,
+      "mode": 420,
+      "path": "validation/staging-validation.json",
+      "sha256": "316120e4e5bf9f794be1c744a14b851382b58f2157e90749067ab04cdf9a125c"
+    },
+    {
+      "bytes": 5236,
+      "mode": 420,
+      "path": "validation/validate_staging.py",
+      "sha256": "c354b9f4ed648f1a1b587f6f02fcf80cced9852059e99f152c7e2ecb6d88da6d"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "package_root": "Resonance-Commons-0.1.0",
+  "revision_scope": "Documentation-only release wording, separate local candidate status and dated publication plan; executable source and tests unchanged",
+  "schema": "resonance-commons.source-files.v1",
+  "scope": "First-party source, route profiles, synthetic packet and sanitized validation; no provider execution, models, runtimes or private audio",
+  "version": "0.1.0"
+}

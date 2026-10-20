@@ -1,0 +1,42 @@
+{
+  "schema": "resonance-commons.route-profile.v1",
+  "version": "0.1.0",
+  "adapter_id": "claude-opus-5-5",
+  "display_name": "Claude Opus 5.5",
+  "route_label": "Claude Opus 5.5 conversation",
+  "accepted_model_labels": [
+    "Opus 5.5",
+    "Claude Opus 5.5"
+  ],
+  "snapshot": {
+    "date": "2026-10-20",
+    "access_status": "temporarily_unavailable",
+    "run_status": "not_sent",
+    "native_audio_status": "not_verified",
+    "evidence": "The requested model label was observed, but a provider response was not requested while access was unavailable.",
+    "provenance": "Sanitized coordinator observation; recheck current route before a new run."
+  },
+  "required_readiness_gates": [
+    "route_access",
+    "evidence_loaded",
+    "exact_model"
+  ],
+  "handoff": {
+    "format": "artifact-first conversation after access is available and exact model selection is observed",
+    "artifact_only_supported_by_adapter": true,
+    "optional_source_wav": false,
+    "maximum_total_bytes": 10485760,
+    "maximum_source_seconds": 30,
+    "automatic_upload": false,
+    "automatic_provider_execution": false
+  },
+  "runtime": "No execution, audio input or file-reading result was obtained in this adapter evaluation.",
+  "route_specific_rule": "Keep the exact requested Opus 5.5 label. Other Claude models and a separately authorized desktop/workspace execution route are not substitutes. Do not infer audio processing from an attachment chip.",
+  "claims": {
+    "native_audio_processing_enabled": false,
+    "measurements_require_exact_ledger_metric_id": true,
+    "interpretations_require_evidence_ids_and_spans": true,
+    "unavailable_music_model_branches_must_remain_unavailable": true
+  },
+  "follow_up": "Use the shared source-bound finite-time/channel probe contract; proposals are validated, never automatically executed."
+}

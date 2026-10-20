@@ -1,0 +1,13 @@
+Resonance Commons - Codex Local adapter
+
+Keep output state isolated and bounded. The local Qwen branch is blocked by available host memory; VoiceGate is a tested local candidate, not bundled here; Music Geometry remains pending repair. None is enabled or treated as completed by this adapter. No dependency/model downloads or microphone access occur.
+
+The standard-library evidence CLI ran under Python 3.13.15 on Windows. Other platforms remain unexecuted portability targets.
+
+Read the exact packet ledger and fixed instructions. Verify packet and source SHA-256 bindings. Declare which numeric/text/plot/audio bytes you actually inspected.
+Keep original source bytes, channel-preserving decoded PCM16 and any mono derivative separate. Preserve decoded-stream time anchors; parent/container origin remains unknown.
+Measured values must use an exact metric ID and value from request.json. Interpretations need valid evidence IDs, a finite in-range source-time span, channel indices, and stated uncertainty.
+Native audio processing is not enabled by this adapter. Do not claim listening or native processing from text, plots, an accepted attachment or a runtime byte probe.
+No tempo, pitch, harmony, instrument recognition, ASR or learned-event branch is executed here. Keep unavailable branch statuses explicit.
+If information is missing, return the source-bound follow-up proposal contract. Never return shell commands, URLs, arbitrary file paths or an automatic upload instruction.
+Use response-template.json as the exact output envelope. Structural acceptance is not factual or musical-quality validation.

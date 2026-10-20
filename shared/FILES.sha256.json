@@ -1,0 +1,78 @@
+{
+  "author": "Coda, collaborating with Andrei",
+  "exclusions": [
+    "private chats",
+    "model weights",
+    "runtime/vendor binaries",
+    "raw logs and old drafts",
+    "private machine paths"
+  ],
+  "files": [
+    {
+      "bytes": 36757,
+      "mode": 420,
+      "path": "evidence_packet.py",
+      "sha256": "6f5f42928c59aaf0604795f9a41ee2c857b7b2e5a2c390fd56ea5e48a3c9a678"
+    },
+    {
+      "bytes": 9332,
+      "mode": 420,
+      "path": "README.md",
+      "sha256": "221d880ba376fcb886d5d851404f0b35377d7ec756b41f5b9bb840515c628442"
+    },
+    {
+      "bytes": 864,
+      "mode": 420,
+      "path": "NOTICE.txt",
+      "sha256": "7240e6361010cde95b60d2048152a0888d1f3ec3d44ec5ee0c193fe9395eeef6"
+    },
+    {
+      "bytes": 19306,
+      "mode": 420,
+      "path": "tests/test_packet.py",
+      "sha256": "10d0b4cc7aee3a549fd18190d6e9047effd553d8f1d3a01ab71fd7d84e1f635d"
+    },
+    {
+      "bytes": 2570,
+      "mode": 420,
+      "path": "demo/input-snapshot.json",
+      "sha256": "907ebbcd85ab6712ee9b8948629a8d53f7a6552814bd0cec8631942474ff69e0"
+    },
+    {
+      "bytes": 48646,
+      "mode": 420,
+      "path": "demo/resonance-commons-case-001-evidence.zip",
+      "sha256": "4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213"
+    },
+    {
+      "bytes": 337,
+      "mode": 420,
+      "path": "demo/follow-up-example.json",
+      "sha256": "450789e728c4502c98fa060a9169673b3a0223b42fe899610891d190aba2e5f5"
+    },
+    {
+      "bytes": 284,
+      "mode": 420,
+      "path": "demo/SHA256SUMS.txt",
+      "sha256": "b7ec0deb835deb1f1402d14b91ef724064909ea8c6d64136190bde5f69398da7"
+    },
+    {
+      "bytes": 6964,
+      "mode": 420,
+      "path": "validation/validate_existing.py",
+      "sha256": "779a0a334ee64359c4773ff52fc65e795e8919fa90fc546eb0b0d2e8324636e2"
+    },
+    {
+      "bytes": 5798,
+      "mode": 420,
+      "path": "validation/validation-final.json",
+      "sha256": "736e19c85b96e59e06800cfbdf85d1711dae4f2af109165bf7674e23335bdc10"
+    }
+  ],
+  "input_producer": "Lilitari EchoSeam Signal Core 0.1.3; Lily original edition, Coda corrective collaboration",
+  "project_name": "Resonance Commons",
+  "schema": "coda.resonance-commons.shared-packet-source.v1",
+  "status": "local validated source and synthetic demo; not published",
+  "validation_receipt": "validation/validation-final.json",
+  "version": "0.1.0"
+}

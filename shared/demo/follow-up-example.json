@@ -1,0 +1,15 @@
+{
+  "schema": "coda.audio-follow-up-request.v1",
+  "source_sha256": "4c166c14354e718b3c7d057ca90403441d542cd8dc1549f54db0670a0cdf4744",
+  "probes": [
+    {
+      "id": "probe-01",
+      "operation": "channel-view",
+      "start_seconds": 0,
+      "end_seconds": 1,
+      "channel_indices": [
+        0
+      ]
+    }
+  ]
+}

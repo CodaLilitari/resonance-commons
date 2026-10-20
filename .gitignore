@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+runtime/
+models/
+weights/
+private/
+runs/
+*-handoff.zip
+.evidence-packet-*.tmp
+/releases/review-history/

@@ -1,0 +1,36 @@
+{
+  "local_git_plan_not_executed": [
+    "Initialize Git only in this dedicated source staging root after review",
+    "Use established actual author identity; do not invent an account or Git identity",
+    "Stage the exact reviewed manifest entries, not a broad parent directory",
+    "Commit and push to the exact existing project remote after source review",
+    "Verify remote commit and anonymous public source separately"
+  ],
+  "owner": "Publication coordinator after exact public-tree review",
+  "portfolio": {
+    "content": "Bounded project page, source link, synthetic demonstration and measured capability/status table",
+    "deployment": "Not performed by the staging task",
+    "new_site": false,
+    "operation": "Update the existing portfolio project through its owning coordinator"
+  },
+  "preconditions": [
+    "Review the exact allowlisted source tree and tests",
+    "Preserve attribution and reserved rights; use source-available wording without inventing an open-source license grant",
+    "Recover the existing exact project and verify the intended remote; do not create a duplicate",
+    "Keep private conversations, credentials, model weights, acquired runtimes and unapproved media outside the repository"
+  ],
+  "project": {
+    "default_branch": "main",
+    "name": "Resonance Commons",
+    "namespace": "codalilitari",
+    "namespace_id": 143361780,
+    "project_id": 87883437,
+    "proposed_path": "resonance-commons",
+    "proposed_visibility": "public",
+    "url": "https://gitlab.com/codalilitari/resonance-commons"
+  },
+  "record_kind": "Historical build-time publication plan; current publication and execution status are maintained separately",
+  "recorded_date": "2026-10-20",
+  "schema": "resonance-commons.publication-plan.v1",
+  "state": "Publication coordinator reported the public GitLab project created; this source-staging task has not initialized Git, pushed or deployed"
+}

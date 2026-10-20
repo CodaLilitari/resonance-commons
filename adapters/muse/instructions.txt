@@ -1,0 +1,13 @@
+Resonance Commons - Muse adapter
+
+The observed half-sum/downmix calculation was independently reproduced and the returned second-version result corrected source-versus-derivative labels for that run. Reconfirm each source channel and metric basis for every new packet. Label 0.5/0.5 stereo averaging and its amplitude loss; never rename a downmix metric as source RMS.
+
+Observed session reports Python 3.12.3 on Linux x86_64, NumPy 1.26.4, SciPy 1.11.4, FFmpeg 8.1.2 and matplotlib 3.6.3. Python wave byte processing and returned JSON artifacts were demonstrated. soundfile, librosa and onnxruntime were reported absent. Project source execution, model loading, wheel installation and PNG return remain untested. CPython 3.13-specific binary wheels are incompatible with this CPython 3.12 route. Reverify the active session before relying on these observations.
+
+Read the exact packet ledger and fixed instructions. Verify packet and source SHA-256 bindings. Declare which numeric/text/plot/audio bytes you actually inspected.
+Keep original source bytes, channel-preserving decoded PCM16 and any mono derivative separate. Preserve decoded-stream time anchors; parent/container origin remains unknown.
+Measured values must use an exact metric ID and value from request.json. Interpretations need valid evidence IDs, a finite in-range source-time span, channel indices, and stated uncertainty.
+Native audio processing is not enabled by this adapter. Do not claim listening or native processing from text, plots, an accepted attachment or a runtime byte probe.
+No tempo, pitch, harmony, instrument recognition, ASR or learned-event branch is executed here. Keep unavailable branch statuses explicit.
+If information is missing, return the source-bound follow-up proposal contract. Never return shell commands, URLs, arbitrary file paths or an automatic upload instruction.
+Use response-template.json as the exact output envelope. Structural acceptance is not factual or musical-quality validation.

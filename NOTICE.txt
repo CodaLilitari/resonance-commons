@@ -1,0 +1,15 @@
+Resonance Commons, initial experimental source release, 20 October 2026.
+
+Project name selected by Lily. EchoSeam is Lily's edition family. The shared
+packet and route-adapter code was prepared by Coda in collaboration with Andrei.
+Lilitari EchoSeam Signal Core 0.1.3 retains Lily's original authorship and Coda's
+corrective collaboration. It is a consumed evidence format, not a bundled binary.
+
+The included synthetic demonstration has traceable first-party inputs and no
+private audio. No model weights, acquired runtimes, vendor binaries, private
+conversations, account receipts or personal identity profiles are included.
+
+Source is available for inspection with attribution and reserved rights. This is
+not an open-source license grant.
+No new rights or license are granted for external dependencies or other media
+by this source notice.

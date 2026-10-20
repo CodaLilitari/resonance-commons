@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "bytes": 7976,
+      "path": "analysis.json",
+      "sha256": "cecf25c91aaed90e6688f75cb9ecd517c8dff92ed5e11e7b6ef391e2b573d750"
+    },
+    {
+      "bytes": 1526,
+      "path": "analysis.txt",
+      "sha256": "2c77e0706aeed7a3f51794ea1d0f43939e3db677dc94886590d72fc4ed5cffdb"
+    },
+    {
+      "bytes": 7986,
+      "path": "ebur128.txt",
+      "sha256": "bfa9a2271409e3fba6e21f7ac5cef58c374e84be857b54c3d5564b426aecaa9f"
+    },
+    {
+      "bytes": 133,
+      "path": "events.json",
+      "sha256": "88e5686df49ca004fa185a8fc53e0de67f7ea69562676726f830171d6bcbf573"
+    },
+    {
+      "bytes": 384078,
+      "path": "mono-derivative.wav",
+      "sha256": "be266f7f02b5781c3b57c3a481694a053833721f3c654a37a178a13fa1a608a8"
+    },
+    {
+      "bytes": 1485,
+      "path": "probe.json",
+      "sha256": "4568f873c608b057c47e3305c0052bcd596818517e2c4792fc47113511dac7b5"
+    },
+    {
+      "bytes": 3218,
+      "path": "report.html",
+      "sha256": "adb6197b5e691839b644ddfca7f7b71a5660ac351470affae3552d4247c59f77"
+    },
+    {
+      "bytes": 768044,
+      "path": "source-channels.wav",
+      "sha256": "4c166c14354e718b3c7d057ca90403441d542cd8dc1549f54db0670a0cdf4744"
+    },
+    {
+      "bytes": 19331,
+      "path": "spectrogram-source-channel-0.png",
+      "sha256": "4f50cc695dfe4ffc600c1eaa86b768fe88468e4398651d83e1826977b9c888d5"
+    },
+    {
+      "bytes": 12383,
+      "path": "spectrogram-source-channel-1.png",
+      "sha256": "2adc4b7337aafe01b0fddaf6317a6aef2d91f6fe9898f82251c9d46a183454ea"
+    },
+    {
+      "bytes": 28201,
+      "path": "spectrogram.png",
+      "sha256": "d4d285ed9db8ebce465618a0731d9745f3d9a48c1e6dde2a3957a7d43fe1a724"
+    },
+    {
+      "bytes": 334,
+      "path": "timeline.csv",
+      "sha256": "3f56bc907157f7c86b283d5a95f06e8f4f7e5ec2db85c97cbd9757cba7074ce6"
+    },
+    {
+      "bytes": 135,
+      "path": "transcript.json",
+      "sha256": "951b8cc35d794cbd50505d5dd447fe6d3e5bdb8e9a6eee6a571194e2371c8c7e"
+    },
+    {
+      "bytes": 1107,
+      "path": "volumedetect.txt",
+      "sha256": "142262b326681d841848bc9558d880fdd858a150c6cef9a07c8036337c1c8e1d"
+    },
+    {
+      "bytes": 5383,
+      "path": "waveform.png",
+      "sha256": "54ddbb06ebc34054620617b25883bcfe04d8f4d13dcbcf98cce49e7501981829"
+    }
+  ],
+  "schema": "coda.evidence-input-snapshot.v1",
+  "source": {
+    "bytes": 768044,
+    "sha256": "4c166c14354e718b3c7d057ca90403441d542cd8dc1549f54db0670a0cdf4744"
+  },
+  "trust": "Caller-pinned local snapshot; not a producer signature or independent proof of decoder correctness"
+}

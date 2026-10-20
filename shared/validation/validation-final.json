@@ -1,0 +1,153 @@
+{
+  "schema": "coda.resonance-commons.shared-packet-validation.v1",
+  "status": "passed",
+  "captured_at_utc": "2026-10-20T21:05:55.264979+00:00",
+  "builder_version": "0.1.0",
+  "python": "3.13.15",
+  "platform": "win32",
+  "unit_tests": {
+    "run": 29,
+    "passed": 28,
+    "failures": 0,
+    "errors": 0,
+    "skips": [
+      {
+        "test": "test_symlink_file_and_parent_refused (packet_tests.PacketTests.test_symlink_file_and_parent_refused)",
+        "reason": "Host cannot create symlinks: OSError"
+      }
+    ]
+  },
+  "integration_controls": [
+    {
+      "control": "left-only",
+      "status": "passed",
+      "source_sha256": "4c166c14354e718b3c7d057ca90403441d542cd8dc1549f54db0670a0cdf4744",
+      "input_snapshot_sha256": "907ebbcd85ab6712ee9b8948629a8d53f7a6552814bd0cec8631942474ff69e0",
+      "packet_sha256": "4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213",
+      "packet_bytes": 48646,
+      "member_count": 6,
+      "gain_status": "finite",
+      "severe_loss_detected": false,
+      "source_rms_linear": 0.1525871906366187,
+      "mono_rms_linear": 0.10789543777162933,
+      "inputs_unchanged": true,
+      "cli_statuses": [
+        "pinned-local-snapshot-not-producer-signature",
+        "built-and-verified-evidence-packet",
+        "verified-byte-integrity-not-hearing"
+      ],
+      "elapsed_seconds": 0.937
+    },
+    {
+      "control": "right-only",
+      "status": "passed",
+      "source_sha256": "3d2355f9dc2045a7c27fb4bf34245cfd44d11f23385d2e9328a0d93951092124",
+      "input_snapshot_sha256": "f1a9c46e083f6917d1b67effb4cf7b065269e49bababb9c4bf5c088f5e925a6e",
+      "packet_sha256": "f2abbd3d9baa64f19de91a7b34ad2dd0fca622bd49244578547d7d47a5933d0c",
+      "packet_bytes": 48710,
+      "member_count": 6,
+      "gain_status": "finite",
+      "severe_loss_detected": false,
+      "source_rms_linear": 0.1525871906366187,
+      "mono_rms_linear": 0.10789543777162933,
+      "inputs_unchanged": true,
+      "cli_statuses": [
+        "pinned-local-snapshot-not-producer-signature",
+        "built-and-verified-evidence-packet",
+        "verified-byte-integrity-not-hearing"
+      ],
+      "elapsed_seconds": 0.96
+    },
+    {
+      "control": "anti-phase",
+      "status": "passed",
+      "source_sha256": "32c7910b48012507ba53066bdf226ab3c27850e84d0d64132d71e9ce46cff7a7",
+      "input_snapshot_sha256": "7e96d02e4eb7e59be5591e7719cc295c31661152ca102194602f2232e507ee96",
+      "packet_sha256": "a5763d2a2145a898044312d535bcbfe0e84cbaca573f112aa830675fcc5f3750",
+      "packet_bytes": 55858,
+      "member_count": 6,
+      "gain_status": "negative_infinity_zero_mono",
+      "severe_loss_detected": true,
+      "source_rms_linear": 0.2157908744427151,
+      "mono_rms_linear": 0.0,
+      "inputs_unchanged": true,
+      "cli_statuses": [
+        "pinned-local-snapshot-not-producer-signature",
+        "built-and-verified-evidence-packet",
+        "verified-byte-integrity-not-hearing"
+      ],
+      "elapsed_seconds": 0.942
+    },
+    {
+      "control": "mono-identity",
+      "status": "passed",
+      "source_sha256": "18529b4d2b6772e434882813a3234cfb121831b27f91b438950b44d53bc2fa9d",
+      "input_snapshot_sha256": "2d70d9c6d9c4ae085a221595b11811091d9ce6f267aa32308cab632b9c7cb8f4",
+      "packet_sha256": "1e479615ccced2bea9d805462e1ba39366a1d729eb789bd89fd656ac24a4e392",
+      "packet_bytes": 57519,
+      "member_count": 6,
+      "gain_status": "finite",
+      "severe_loss_detected": false,
+      "source_rms_linear": 0.2157908744427151,
+      "mono_rms_linear": 0.2157908744427151,
+      "inputs_unchanged": true,
+      "cli_statuses": [
+        "pinned-local-snapshot-not-producer-signature",
+        "built-and-verified-evidence-packet",
+        "verified-byte-integrity-not-hearing"
+      ],
+      "elapsed_seconds": 0.854
+    },
+    {
+      "control": "zero-reference",
+      "status": "passed",
+      "source_sha256": "ec3650bd450cebe9985c1d4d4b59749debe34301f9f9e889171d0e49a316c89c",
+      "input_snapshot_sha256": "f5511f9d870be26347e7bdda0e4b3f61ccd5244bd77564f2e70464bbdde81671",
+      "packet_sha256": "a7ada74f0db42f064503c67a4bead98b7965a1e3d02ad3cec1a6fc1982203fc8",
+      "packet_bytes": 41492,
+      "member_count": 6,
+      "gain_status": "undefined_zero_source",
+      "severe_loss_detected": false,
+      "source_rms_linear": 0.0,
+      "mono_rms_linear": 0.0,
+      "inputs_unchanged": true,
+      "cli_statuses": [
+        "pinned-local-snapshot-not-producer-signature",
+        "built-and-verified-evidence-packet",
+        "verified-byte-integrity-not-hearing"
+      ],
+      "elapsed_seconds": 0.857
+    }
+  ],
+  "preserved_existing_inputs": true,
+  "no_model_decoder_network_or_wsl_execution": true,
+  "scope": "Builder consistency/integrity and bounded synthetic packet checks; no musical-quality or provider-audio capability claim",
+  "elapsed_seconds": 9.586,
+  "source_files": [
+    {
+      "path": "evidence_packet.py",
+      "bytes": 36757,
+      "sha256": "6f5f42928c59aaf0604795f9a41ee2c857b7b2e5a2c390fd56ea5e48a3c9a678"
+    },
+    {
+      "path": "tests/test_packet.py",
+      "bytes": 19306,
+      "sha256": "10d0b4cc7aee3a549fd18190d6e9047effd553d8f1d3a01ab71fd7d84e1f635d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9332,
+      "sha256": "221d880ba376fcb886d5d851404f0b35377d7ec756b41f5b9bb840515c628442"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 864,
+      "sha256": "7240e6361010cde95b60d2048152a0888d1f3ec3d44ec5ee0c193fe9395eeef6"
+    },
+    {
+      "path": "validation/validate_existing.py",
+      "bytes": 6964,
+      "sha256": "779a0a334ee64359c4773ff52fc65e795e8919fa90fc546eb0b0d2e8324636e2"
+    }
+  ]
+}

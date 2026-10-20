@@ -1,0 +1,14 @@
+Portable Audio Evidence Packet Builder 0.1.0
+Prepared by Coda, collaborating with Andrei, 20 October 2026.
+
+The builder is new first-party standard-library Python code. It consumes the
+existing Lilitari EchoSeam Signal Core 0.1.3 output schema. Lily authored the
+original EchoSeam edition; Coda contributed the corrective 0.1.2/0.1.3 work.
+No EchoSeam executable, FFmpeg binary, model, model weights, third-party Python
+package, or private conversation is included here.
+
+The synthetic demo derives from the independently generated Coda Music Geometry
+oracle controls and existing independently verified EchoSeam output. It is a
+tool-mediated evidence example, not a native-hearing or musical-quality claim.
+Public repository licensing is to be selected for the named project before
+publication. This local notice does not invent a license grant for other assets.
