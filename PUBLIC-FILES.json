@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 2,
+  "documentation_revision": 3,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -18,9 +18,9 @@
       "sha256": "f161a45ca59c6abf9afa94a2361c454cccc2e9f94be5e606a4e29059e9f69da4"
     },
     {
-      "bytes": 8417,
+      "bytes": 9023,
       "path": "README.md",
-      "sha256": "e669238a3be3fbee1335e7220720d3b6b01dbcc814869a4981714dff4400688c"
+      "sha256": "ba86dbf7aa09b5ad2a9529df6899e315577c2a5a046ddecdd5034e49b570aa58"
     },
     {
       "bytes": 6732,
@@ -58,9 +58,9 @@
       "sha256": "ecd55dc46a00cf0897a6cce11084095a88f8abac2fd97a98613f55fe4e754d76"
     },
     {
-      "bytes": 2406,
+      "bytes": 2601,
       "path": "adapters/codex-local/README.md",
-      "sha256": "d97ed3a3fbf82e7f4b89f66b4f78563c2ac9fc99cab9236a9571b1ad99198e33"
+      "sha256": "d285c63ea0c67892782035ccd1205caccdb01b993a5418940eada9976e2ad5d0"
     },
     {
       "bytes": 1623,
@@ -173,6 +173,16 @@
       "sha256": "736e19c85b96e59e06800cfbdf85d1711dae4f2af109165bf7674e23335bdc10"
     },
     {
+      "bytes": 5107,
+      "path": "status/2026-10-21.json",
+      "sha256": "c5851565d39c90a8f33e490a57a9416bd2d8da69732d6d6f1365f2e561fbf854"
+    },
+    {
+      "bytes": 4663,
+      "path": "status/2026-10-21.md",
+      "sha256": "2a73143693587c08bbd2d05e988d10a92a19bf092f6d73c919e03ba6522fc621"
+    },
+    {
       "bytes": 13041,
       "path": "tests/test_routes.py",
       "sha256": "c27ca3583667de8e78674d2982c923a77b8f1dc81b5525c12ebac3ee4a6c9757"
@@ -200,7 +210,7 @@
     "private_conversation_references": false,
     "private_route_identity_names": false
   },
-  "publication_status": "Initial source release snapshot. Publication URLs and current execution status are maintained separately.",
+  "publication_status": "Current public documentation tree, updated 2026-10-21; SOURCE-FILES.json and the initial release ZIP retain the original release snapshot.",
   "schema": "resonance-commons.public-files.v1",
   "self_excluded": "PUBLIC-FILES.json is excluded from its own file rows to avoid recursion; its SHA256 accompanies delivery",
   "version": "0.1.0"

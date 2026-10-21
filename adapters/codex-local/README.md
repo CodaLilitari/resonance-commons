@@ -8,11 +8,11 @@ Native audio: **not_claimed**, with native-processing claims disabled.
 
 The shared producer CLI and five synthetic channel controls were verified locally. This establishes signal evidence handling, not subjective hearing or learned musical understanding.
 
-Keep output state isolated and bounded. The local Qwen branch is blocked by available host memory; VoiceGate is a tested local candidate, not bundled here; Music Geometry remains pending repair. None is enabled or treated as completed by this adapter. No dependency/model downloads or microphone access occur.
+Keep output state isolated and bounded. The local Qwen branch is blocked by available host memory; VoiceGate is a tested local candidate, not bundled here; Music Geometry later passed separate local and returned-target checks (see the [dated project update](../../status/2026-10-21.md)). None is enabled or treated as completed by this adapter. No dependency/model downloads or microphone access occur.
 
 Handoff: local CLI packet verification and a machine-readable response; optional exact-hash WAV kept local.
 
-The standard-library evidence CLI ran under Python 3.13.15 on Windows. Other platforms remain unexecuted portability targets.
+The original local validation used Python 3.13.15 on Windows. Later Muse receipts support bounded execution of the supplied shared CLI on Linux; that receiver evidence does not establish every platform or adapter configuration.
 
 Run from the repository root:
 

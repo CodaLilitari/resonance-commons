@@ -11,6 +11,15 @@ and response-value/structure checks. It does not provide five functioning native
 audio services. It makes the differences between available, tested, unavailable
 and unverified capabilities explicit.
 
+## Current project status
+
+See the [21 October 2026 status update](status/2026-10-21.md) for later local
+worker tests and provider handoffs. The initial 0.1.0-r2 release archive and
+`SOURCE-FILES.json` remain the frozen release snapshot; they do not describe a
+new bundle containing the separate workers. `PUBLIC-FILES.json` records the
+current public documentation tree. Installation commands below still describe
+the standard-library source release.
+
 ## What is implemented
 
 The shared producer ingests existing **Lilitari EchoSeam Signal Core 0.1.3**
@@ -26,7 +35,7 @@ gates. `prepare` creates a new, hash-manifested handoff; it never sends it.
 channels, evidence IDs and time ranges. Interpretations remain unverified
 hypotheses; structural acceptance is not a musical-quality score.
 
-| Adapter | Current evidence and limit | Distinct check |
+| Adapter | Initial foundation snapshot (later outcomes above) | Distinct check |
 |---|---|---|
 | Grokbot | Intended native route was inaccessible; no provider test | Actual Grokbot access; no ordinary Grok, Grok Build or API substitution |
 | Muse | WAV-byte/runtime probe observed and numeric result reproduced; metric-basis labeling corrected for that bounded run; native audio self-reported unavailable | Current packet loaded and source-versus-mono metric basis explicitly confirmed |
@@ -34,7 +43,7 @@ hypotheses; structural acceptance is not a musical-quality score.
 | Claude Opus 5.5 | Model label observed; no provider test while access unavailable | Exact requested model and current route access |
 | Codex Local | Standard-library CLI and synthetic signal controls tested | Current local Python compatibility; no learned branch enabled |
 
-These are dated observations, not permanent product specifications or backend
+The table preserves the initial foundation observations. These are not permanent product specifications or backend
 attestation. Private conversation references, account quotas/reset times and
 account evidence are intentionally absent. Gemini supplied design consultation;
 accepted attachment chips did not establish audio access, so it is not used as a
@@ -119,7 +128,8 @@ passed; the five public CLI preparation/validation flows passed. Route tests che
 distinct readiness rules, source binding, immutable handoffs, claim-value and
 modality refusals. Current result files and exact source hashes are allowlisted.
 
-The source ZIP and public file manifest identify this exact review snapshot.
+The source ZIP and `SOURCE-FILES.json` identify the frozen initial release.
+`PUBLIC-FILES.json` identifies the current public documentation and artifact tree.
 The independently frozen shared source ZIP is also preserved in `releases/`.
 The public manifest excludes itself to avoid a recursive hash; its hash is supplied
 separately at handoff. The source archive contains source and fixtures, not runtimes.

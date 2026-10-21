@@ -1,0 +1,101 @@
+{
+  "schema": "resonance-commons.public-progress.v1",
+  "date_utc": "2026-10-21",
+  "scope": "Dated project outcomes; separate worker results do not change the contents of the initial source release.",
+  "source_release": {
+    "version": "0.1.0-r2",
+    "bytes": 99106,
+    "sha256": "c92d6359657aff3910990979efbd317938644696f6755c3f080ee6750f1e6518",
+    "contains": "Standard-library evidence builder, five offline adapters, synthetic demo and validation.",
+    "separate": [
+      "Music Geometry",
+      "Voice Gate",
+      "ASR runtime",
+      "model weights",
+      "provider automation"
+    ],
+    "archive_changed": false
+  },
+  "routes": {
+    "grokbot": "Handoff prepared; exact bot conversation/runtime access remains unverified. No provider execution accepted.",
+    "muse": "Foundation and bounded Voice Gate returns accepted. Official ASR assets acquired by the receiving route; restoration accepted. ASR controls and pilot stopped at resource admission before inference. Local-result interpretation accepted separately.",
+    "chatgpt-6-pro": "Two-stage capability intake and synthetic handoff prepared, unsent. Requested model access and separate saved conversation pending; no requested-model execution established.",
+    "claude-opus-5-5": "Bounded official package acquisition, private installation and pure-Python import accepted. Foundation continuation interrupted; native audio and later-turn persistence remain unaccepted.",
+    "codex-local": "Persistent local dispatcher installed and exercised for Voice Gate, Music Geometry and English ASR. Five ASR cases and five same-input Voice Gate cases completed with the quality limits below.",
+    "lilitari": "Historical Signal Core, Music Geometry and bounded Voice Gate acceptance retained. Later ASR setup refused before its worker launched. Local-result interpretation accepted; continuing remote residence is not established.",
+    "gemini-argon-high": "Saved design consultation completed. WAV, equivalent FLAC and a final MP3 access probe abstained. The MP3 attachment persisted in the saved turn and Argon High was selected; separate response model details were unavailable. No native-listening comparison or parity score established; format retries stopped."
+  },
+  "music_geometry": {
+    "version": "0.1.1",
+    "later_return_reconciliation_checks": 155,
+    "accepted_scope": "Returned public-launcher, comparison and preservation evidence; historical adapted local smoke remains a separate observation.",
+    "remote_persistence_established": false
+  },
+  "local_asr": {
+    "engine": "whisper.cpp 1.9.5",
+    "model": "base.en",
+    "language": "English",
+    "reference_words": 37,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "micro_wer": 0.02702702702702703,
+    "exact_normalized_clips": 1,
+    "speech_clips": 2,
+    "substitution": "alimentary -> elementary",
+    "training_overlap": "Unknown; two public LJ Speech examples.",
+    "tone_failure": "Four-second 440 Hz tone produced (eerie music).",
+    "silence_timing_failure": "Three-second silence produced [BLANK_AUDIO] with a raw 0-10000 ms segment, flagged outside input bounds.",
+    "offset_diagnostic": "A two-second silent prefix preserved words; segment start shifts were 0 and 2000 ms, end shifts 2000 and 1980 ms. No onset or word alignment validation.",
+    "general_accuracy_established": false
+  },
+  "local_same_input_voice_gate": {
+    "threshold": 0.5,
+    "threshold_tuned": false,
+    "sample_rate_hz": 16000,
+    "cases": [
+      {
+        "id": "s01",
+        "kind": "speech",
+        "selected_frames": 218,
+        "frames": 237
+      },
+      {
+        "id": "s02",
+        "kind": "speech",
+        "selected_frames": 253,
+        "frames": 263
+      },
+      {
+        "id": "n01",
+        "kind": "silence",
+        "selected_frames": 0,
+        "frames": 94
+      },
+      {
+        "id": "n02",
+        "kind": "tone",
+        "selected_frames": 0,
+        "frames": 125
+      },
+      {
+        "id": "t01",
+        "kind": "offset diagnostic",
+        "selected_frames": 216,
+        "frames": 300
+      }
+    ],
+    "bounded_speech_no_speech_agreement": "4/4 fixtures; offset case separate.",
+    "same_decoded_channel_pcm_verified": true,
+    "automatic_transcript_suppression": false,
+    "general_vad_accuracy_established": false
+  },
+  "delivery_policy": "Use ordinary official acquisition first. Transfer only custom material or a demonstrated retrieval gap; receiving-host execution and evidence interpretation remain distinct.",
+  "limits": [
+    "Successful execution does not establish transcript correctness or semantic understanding.",
+    "A valid segment bounds flag establishes numeric containment only; preserve invalid raw times rather than silently clamping them.",
+    "Voice activity scores are optional and uncalibrated; music and singing require separate evaluation.",
+    "Historical installation acceptance does not prove continued sandbox residence.",
+    "No native subjective hearing, broad musical understanding, model parity, or complete five-provider rollout is claimed."
+  ]
+}
