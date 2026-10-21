@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 3,
+  "documentation_revision": 4,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -173,14 +173,14 @@
       "sha256": "736e19c85b96e59e06800cfbdf85d1711dae4f2af109165bf7674e23335bdc10"
     },
     {
-      "bytes": 5107,
+      "bytes": 7934,
       "path": "status/2026-10-21.json",
-      "sha256": "c5851565d39c90a8f33e490a57a9416bd2d8da69732d6d6f1365f2e561fbf854"
+      "sha256": "ed9d05edd1770902957ebb4b4d3e49344a081cdfc94f215659000ce8278c027b"
     },
     {
-      "bytes": 4663,
+      "bytes": 6610,
       "path": "status/2026-10-21.md",
-      "sha256": "2a73143693587c08bbd2d05e988d10a92a19bf092f6d73c919e03ba6522fc621"
+      "sha256": "f370247717eb5e18ab671b88eb4647f9b3891e04494d896a114fb693e721bd52"
     },
     {
       "bytes": 13041,

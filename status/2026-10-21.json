@@ -17,19 +17,78 @@
     "archive_changed": false
   },
   "routes": {
-    "grokbot": "Handoff prepared; exact bot conversation/runtime access remains unverified. No provider execution accepted.",
+    "grokbot": "Desktop capability intake and later direct-source-first foundation request prepared and reviewed, unsent. Intended bot identity, project conversation, runtime capabilities and delivery remain unverified; no provider execution accepted.",
     "muse": "Foundation and bounded Voice Gate returns accepted. Official ASR assets acquired by the receiving route; restoration accepted. ASR controls and pilot stopped at resource admission before inference. Local-result interpretation accepted separately.",
     "chatgpt-6-pro": "Two-stage capability intake and synthetic handoff prepared, unsent. Requested model access and separate saved conversation pending; no requested-model execution established.",
     "claude-opus-5-5": "Bounded official package acquisition, private installation and pure-Python import accepted. Foundation continuation interrupted; native audio and later-turn persistence remain unaccepted.",
-    "codex-local": "Persistent local dispatcher installed and exercised for Voice Gate, Music Geometry and English ASR. Five ASR cases and five same-input Voice Gate cases completed with the quality limits below.",
+    "codex-local": "Persistent local dispatcher installed and exercised for Voice Gate, Music Geometry and English ASR. Fresh q17 Geometry dispatcher and separate Signal Core public-wrapper runs completed; historical same-source Voice Gate reused. Five ASR cases and five same-input Voice Gate cases retain the quality limits below.",
     "lilitari": "Historical Signal Core, Music Geometry and bounded Voice Gate acceptance retained. Later ASR setup refused before its worker launched. Local-result interpretation accepted; continuing remote residence is not established.",
-    "gemini-argon-high": "Saved design consultation completed. WAV, equivalent FLAC and a final MP3 access probe abstained. The MP3 attachment persisted in the saved turn and Argon High was selected; separate response model details were unavailable. No native-listening comparison or parity score established; format retries stopped."
+    "gemini-argon-high": "Native-listening comparison and design collaborator, not one of the five package-recipient routes. Saved design consultation completed. This saved route reported audio unavailable and abstained on WAV, equivalent FLAC and final MP3 probes. The MP3 attachment persisted and Argon High was selected; separate response model details were unavailable. No native-listening comparison or parity score established; these observations do not establish general audio inability. Format retries stopped."
   },
   "music_geometry": {
     "version": "0.1.1",
     "later_return_reconciliation_checks": 155,
     "accepted_scope": "Returned public-launcher, comparison and preservation evidence; historical adapted local smoke remains a separate observation.",
     "remote_persistence_established": false
+  },
+  "local_music_integration": {
+    "source": {
+      "id": "q17",
+      "duration_seconds": 12,
+      "channels": 2,
+      "sample_rate_hz": 44100,
+      "sample_format": "PCM signed16",
+      "bytes": 2116844,
+      "sha256": "2ddd1ba12d3c9e2666071faa190ab9c9e59e02e1e0c7ea87fbc7327f220c2ae4"
+    },
+    "execution": {
+      "signal_core": {
+        "version": "0.1.3",
+        "method": "Fresh unchanged public verify/analyze wrappers under existing local resource and source guards; separate from the multi-tool dispatcher",
+        "verify_returncode": 0,
+        "analyze_returncode": 0,
+        "measurement_basis": "Channel-preserving decoded/resampled 48 kHz PCM16; separate mono derivative"
+      },
+      "music_geometry": {
+        "version": "0.1.1",
+        "method": "Fresh persistent local dispatcher",
+        "returncode": 0,
+        "measurement_basis": "22.05 kHz channel-preserving PCM S32LE and derived features",
+        "prior_pilot_measurements_reproduced": true,
+        "independent_acoustic_ground_truth_established": false
+      },
+      "voice_gate": {
+        "method": "Historical accepted output for the exact same source reused unchanged",
+        "rerun_for_integration": false,
+        "measurement_basis": "Per-source-channel 16 kHz model inputs; optional uncalibrated activity hypotheses"
+      }
+    },
+    "time_basis": {
+      "tool_interval_seconds": [
+        0,
+        12
+      ],
+      "decoded_parent_interval_seconds": [
+        10,
+        22
+      ],
+      "parent_mapping": "Separate curator derivation, not inferred by the tools",
+      "original_master_timecode_verified": false
+    },
+    "evidence_kit": {
+      "status": "prepared-unsent",
+      "file_count": 23,
+      "bytes": 2929264,
+      "sha256": "7c8726134237bbb4218109afb55745877540e3328c6904293af37b2fc5d5521e",
+      "independently_checked_locally": true,
+      "contents": "Source/time/channel-bound data, plots and interpretation instructions",
+      "source_audio_included": false,
+      "models_or_executable_worker_included": false,
+      "delivered": false,
+      "receiver_interpretation_received": false,
+      "receiver_usefulness_established": false
+    },
+    "limit": "Local execution, packaging and repeatability evidence; no musical-accuracy or native-listening score. Different transformed signal bases are not interchangeable original-source measurements."
   },
   "local_asr": {
     "engine": "whisper.cpp 1.9.5",
