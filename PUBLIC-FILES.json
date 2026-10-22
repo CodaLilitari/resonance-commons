@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 5,
+  "documentation_revision": 6,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -18,9 +18,9 @@
       "sha256": "f161a45ca59c6abf9afa94a2361c454cccc2e9f94be5e606a4e29059e9f69da4"
     },
     {
-      "bytes": 9023,
+      "bytes": 9253,
       "path": "README.md",
-      "sha256": "9e42307582844e0b2edeca75a0527d605565d840a1397a016410624070882028"
+      "sha256": "741a30ea672b11f38dff9b42d1fb490b602dc9a056eca9c5491942b0362978cc"
     },
     {
       "bytes": 6732,
@@ -101,6 +101,16 @@
       "bytes": 2616,
       "path": "adapters/muse/profile.json",
       "sha256": "d4045c6d7315fd2aff898e162253e0778f977faf1c5825285f8e9d6952cf0cd8"
+    },
+    {
+      "bytes": 16188,
+      "path": "docs/operations-guide.md",
+      "sha256": "71fb876398cc05d882e6218dd1a555aa2b35d8f4c5de866e818c64486fc3558d"
+    },
+    {
+      "bytes": 18978,
+      "path": "docs/operations-manifest.json",
+      "sha256": "d8c2dd22a822b59d86984fd98b14d1819e5937f02b0e67074dc5617d1118ae2a"
     },
     {
       "bytes": 1919,

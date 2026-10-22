@@ -20,6 +20,10 @@ new bundle containing the separate workers. `PUBLIC-FILES.json` records the
 current public documentation tree. Installation commands below still describe
 the standard-library source release.
 
+For current entrypoints, packet-format differences, installed local use and
+model-specific acquisition steps, read the [operation guide](docs/operations-guide.md)
+and its [structured manifest](docs/operations-manifest.json).
+
 ## What is implemented
 
 The shared producer ingests existing **Lilitari EchoSeam Signal Core 0.1.3**

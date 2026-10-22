@@ -1,0 +1,356 @@
+{
+  "schema": "resonance-commons.operations-manifest.v1",
+  "date_utc": "2026-10-22",
+  "status": "reviewed_operation_reference",
+  "guide": "operations-guide.md",
+  "scope": "Reusable entrypoints and dated route dispositions; this record neither installs workers nor authorizes provider contact or execution.",
+  "source_release": {
+    "version": "0.1.0-r2",
+    "bytes": 99106,
+    "sha256": "c92d6359657aff3910990979efbd317938644696f6755c3f080ee6750f1e6518",
+    "python_minimum": "3.11",
+    "third_party_dependency_install_required": false,
+    "audio_workers_included": false,
+    "archive_unchanged": true,
+    "project_url": "https://gitlab.com/codalilitari/resonance-commons"
+  },
+  "packet_formats": {
+    "foundation": {
+      "members": 6,
+      "producer": "shared/evidence_packet.py build",
+      "requires": "Existing complete EchoSeam Signal Core 0.1.3 report and exact original source",
+      "contains_audio": false,
+      "public_foundation_cli_compatible": true,
+      "demo_path": "shared/demo/resonance-commons-case-001-evidence.zip",
+      "demo_sha256": "4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213"
+    },
+    "q17_custom": {
+      "members": 23,
+      "payload_members": 22,
+      "archive_bytes": 2929264,
+      "compressed_entry_payload_bytes": 2926514,
+      "expanded_bytes": 3368579,
+      "sha256": "7c8726134237bbb4218109afb55745877540e3328c6904293af37b2fc5d5521e",
+      "contains_audio": false,
+      "public_foundation_cli_compatible": false,
+      "assessment": "Kit-specific request/response template and frozen independent rubric; no generic multi-worker packet builder delivered."
+    }
+  },
+  "entrypoints": [
+    {
+      "id": "foundation-demo-verify",
+      "availability": "public_source",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B shared/evidence_packet.py verify --packet shared/demo/resonance-commons-case-001-evidence.zip --sha256 4fea586058262a3b4b790ee70e01cd07065077c7be7e3e42cf7b57d80c3a7213",
+      "success": "Exit 0 plus verified byte-integrity status; not hearing."
+    },
+    {
+      "id": "foundation-route-check",
+      "availability": "public_source",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B tools/route_adapter.py check --adapter ADAPTER_ID --packet PACKET.zip --sha256 PACKET_SHA256 --observation OBSERVATION.json",
+      "optional_argument": "--observation OBSERVATION.json may be omitted to inspect frozen/no-current-observation gates",
+      "success": "Inspect JSON readiness fields; exit 0 alone can accompany blocked gates."
+    },
+    {
+      "id": "foundation-prepare",
+      "availability": "public_source",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B tools/route_adapter.py prepare --adapter ADAPTER_ID --packet PACKET.zip --sha256 PACKET_SHA256 --observation OBSERVATION.json --output NEW_HANDOFF.zip",
+      "success": "New local immutable handoff and printed hash; no upload or provider execution."
+    },
+    {
+      "id": "foundation-response-validate",
+      "availability": "public_source",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B tools/route_adapter.py validate-response --handoff HANDOFF.zip --sha256 HANDOFF_SHA256 --response RESPONSE.json",
+      "success": "structure-and-value-bindings-accepted; interpretations still need independent review."
+    },
+    {
+      "id": "foundation-input-pin",
+      "availability": "public_source_requires_existing_signal_report",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B shared/evidence_packet.py pin --report REPORT_DIR --source SOURCE_FILE --output INPUT_RECEIPT.json",
+      "success": "New caller-pinned snapshot and printed SHA; not a producer signature."
+    },
+    {
+      "id": "foundation-packet-build",
+      "availability": "public_source_requires_existing_signal_report",
+      "working_directory": "PUBLIC_SOURCE_ROOT",
+      "command": "python -I -B shared/evidence_packet.py build --report REPORT_DIR --source SOURCE_FILE --receipt INPUT_RECEIPT.json --receipt-sha256 RECEIPT_SHA256 --name \"Resonance Commons\" --case-id case-001 --output case-001-evidence.zip",
+      "success": "New six-member foundation packet; no audio analysis is invoked."
+    },
+    {
+      "id": "signal-core-verify",
+      "availability": "separate_accepted_linux_package",
+      "command": "\"<ABSOLUTE_SIGNAL_CORE_PACKAGE>/bin/lily-echo-verify\"",
+      "success": "Exact package checks exit 0; does not analyze an input."
+    },
+    {
+      "id": "signal-core-analyze",
+      "availability": "separate_accepted_linux_package",
+      "command": "\"<ABSOLUTE_SIGNAL_CORE_PACKAGE>/bin/lily-echo-analyze\" \"<ABSOLUTE_AUTHORIZED_INPUT>\" \"<ABSOLUTE_NEW_NATIVE_OUTPUT>\"",
+      "success": "New complete source/channel/time-bound report on supported native output filesystem."
+    },
+    {
+      "id": "local-voice-gate",
+      "availability": "existing_accepted_windows_wsl_runtime_only",
+      "command": "wsl -e /usr/bin/python3 -E -s -B <WSL_ABSOLUTE_DISPATCH_PY> voice-gate --input <WSL_ABSOLUTE_AUTHORIZED_WAV> --job NEW_JOB_ID",
+      "success": "COMPLETED.json plus result/voice-gate.json",
+      "channel_policy": "All source channels remain distinct; no --channel override."
+    },
+    {
+      "id": "local-geometry",
+      "availability": "existing_accepted_windows_wsl_runtime_only",
+      "command": "wsl -e /usr/bin/python3 -E -s -B <WSL_ABSOLUTE_DISPATCH_PY> geometry --input <WSL_ABSOLUTE_AUTHORIZED_INPUT> --job NEW_JOB_ID",
+      "success": "COMPLETED.json plus result/analysis.json"
+    },
+    {
+      "id": "local-asr",
+      "availability": "existing_accepted_windows_wsl_runtime_only",
+      "command": "wsl -e /usr/bin/python3 -E -s -B <WSL_ABSOLUTE_DISPATCH_PY> asr --input <WSL_ABSOLUTE_AUTHORIZED_WAV> --channel 0 --job NEW_JOB_ID",
+      "success": "COMPLETED.json plus result/asr.json; inspect raw transcript and segment bounds separately",
+      "channel_policy": "Explicit 0 or 1, present in the input; English base.en only."
+    },
+    {
+      "id": "local-geometry-compare",
+      "availability": "existing_accepted_windows_wsl_runtime_only",
+      "command": "wsl -e /usr/bin/python3 -E -s -B <WSL_ABSOLUTE_DISPATCH_PY> compare --left <ABSOLUTE_FIRST_GEOMETRY_RESULT> --right <ABSOLUTE_SECOND_GEOMETRY_RESULT> --job NEW_JOB_ID",
+      "success": "COMPLETED.json plus result/comparison.json"
+    }
+  ],
+  "command_template_rules": [
+    "Replace every placeholder with one exact authorized existing path/hash or a genuinely new output/job name. Quote substituted paths as required by the selected shell.",
+    "Public commands run from the verified source root; local worker commands require the separate accepted installation.",
+    "The local dispatcher prefix and source pins are fixed by its installation receipts; placeholders do not make the runtime portable or relocatable.",
+    "Do not execute shell snippets or download instructions returned inside a model response."
+  ],
+  "local_runtime": {
+    "entrypoint_record": "RUN-LOCAL.txt supplied beside dispatch.py",
+    "installed_python": "CPython 3.13.16",
+    "pinned_packages": 31,
+    "historical_preparation_readme_frozen": true,
+    "new_machine_installer_delivered_in_public_source": false,
+    "subcommands": [
+      "voice-gate",
+      "geometry",
+      "asr",
+      "compare"
+    ],
+    "job_id_pattern": "[a-z0-9][a-z0-9-]{0,63}",
+    "completion_receipt": "outputs/JOB-ID/COMPLETED.json",
+    "failure_receipt": "outputs/JOB-ID/FAILED.json",
+    "resource_gates": {
+      "windows_available_ram_bytes_min": 2147483648,
+      "wsl_available_ram_bytes_min": 2147483648,
+      "backing_windows_drive_free_bytes_min": 10737418240,
+      "native_linux_free_bytes_min": 3221225472,
+      "supervised_wall_seconds": 120,
+      "sampled_aggregate_child_rss_bytes_max": 1073741824,
+      "job_result_bytes_max": 67108864
+    },
+    "not_supported": [
+      "Automatic installation or downloads",
+      "Provider uploads",
+      "Microphone input",
+      "Qwen or TTS",
+      "Automatic crops or arbitrary commands"
+    ],
+    "monitor_limit": "Sampled guards are not kernel-enforced RSS/disk quotas."
+  },
+  "routes": [
+    {
+      "id": "codex-local",
+      "kind": "package_recipient",
+      "foundation": "accepted",
+      "workers": {
+        "voice_gate": "accepted bounded local execution",
+        "music_geometry": "accepted bounded local execution",
+        "english_asr": "accepted execution with disclosed false-positive/timestamp limitations",
+        "signal_core": "accepted separate native launcher"
+      },
+      "next_missing_step": "No new runtime asset needed for authorized use of this installed machine. A portable install/use package for other machines is separate unfinished delivery.",
+      "contact_or_execution_by_manifest": false
+    },
+    {
+      "id": "muse",
+      "kind": "package_recipient",
+      "foundation": "accepted",
+      "workers": {
+        "voice_gate": "bounded receiving controls accepted",
+        "english_asr": "official acquisition/restoration accepted; receiving inference unattempted after resource refusal"
+      },
+      "q17": "accepted assisted v3 after two revisions; original response failed",
+      "next_missing_step": "Resource-refresh checkpoint closed below the unchanged memory floor. Keep ASR07/08 incomplete stages and original refusal evidence; no further query, resource poll, inference retry, guard relaxation or duplicate asset upload follows from this audit.",
+      "automatic_retry": false,
+      "resource_refresh": {
+        "date_utc": "2026-10-22",
+        "status": "accepted_reported_low_resource_observation_with_verification_limits",
+        "checkpoint_complete": true,
+        "attachments": 0,
+        "reported_observation_utc": "2026-10-22T20:46:16.129938Z",
+        "reported_available_memory_bytes": 447262720,
+        "memory_floor_bytes": 805306368,
+        "memory_floor_met": false,
+        "reported_disk_floor_met": true,
+        "seven_small_pins_match_local_originals": true,
+        "small_file_bytes_sum": 65918,
+        "bulk_content_hashed": false,
+        "new_asr_attempt_admissible": false,
+        "retry_or_poll_authorized": false,
+        "evidence_limits": [
+          "Raw memory text and explicit cgroup mount/read paths absent.",
+          "Probe source, command trace, elapsed duration and independently measured 30-second-cap compliance absent.",
+          "Bulk assets stat-only; individual wheels, full candidate tree, resolved interpreter, imports and future persistence unverified."
+        ],
+        "scope": "One returned low-resource and light-retention report, independently source-aligned with arithmetic and local pins; no remote telemetry replay or new inference."
+      }
+    },
+    {
+      "id": "chatgpt-6-pro",
+      "kind": "package_recipient",
+      "foundation": "accepted after targeted source fallback and preserved schema correction history",
+      "q17": "original response accepted without external corrective revision",
+      "workers": {
+        "signal_core": "not established in this separate VM",
+        "voice_gate": "not established",
+        "music_geometry": "not established",
+        "english_asr": "not established"
+      },
+      "runtime_observation": {
+        "date_utc": "2026-10-22",
+        "python": "CPython 3.12.14",
+        "os": "Linux x86_64",
+        "glibc": "2.39",
+        "evidence_class": "returned runtime observations; not a guarantee of continued residence or headroom"
+      },
+      "source_fetch": "One exact ordinary GitLab source attempt failed before HTTP; sole pinned source fallback received. This does not establish all other dependency hosts inaccessible.",
+      "next_missing_step": "Recover and independently audit the submitted offline packaging-bootstrap return. Private venv installation, actual pip target mode, packaging import and audio workers remain unestablished. No larger dependency/model upload follows from the two specific acquisition failures.",
+      "native_audio_verified": false,
+      "worker_bootstrap": {
+        "status": "accepted_partial_with_guard_corrections_for_next_stage",
+        "date_utc": "2026-10-22",
+        "attachments": 0,
+        "bootstrap_ready": false,
+        "scope": "Returned artifact integrity and corroborated dated runtime/filesystem/controller observations; not installation or audio/model capability.",
+        "archive": {
+          "bytes": 51965,
+          "sha256": "a5b51882fe35e7dd5d2172f28206e15011734e613a2f7050853ddd42076be2b9",
+          "regular_members": 45,
+          "expanded_bytes": 121654,
+          "manifest_payload_rows": 44
+        },
+        "resource_snapshot": {
+          "full_conservative_gate_passed": true,
+          "capacity_reserved": false
+        },
+        "filesystem": "Actual renameat2 no-replace success/refusal and O_NOFOLLOW refusal corroborated by source and receipts; remote fixture persistence remains reported.",
+        "installer": "Existing base pip version and --python help observed; target-mode installation untested.",
+        "acquisition": {
+          "attempts": 2,
+          "successful_http_responses": 0,
+          "hosts": [
+            "pypi.org",
+            "files.pythonhosted.org"
+          ],
+          "failure": "URLError caused by PermissionError errno 1 before HTTP for each request",
+          "received_bytes_total": 0,
+          "general_network_or_huggingface_block_proven": false
+        },
+        "unattempted": [
+          "venv creation",
+          "installation",
+          "pip target-mode invocation",
+          "packaging import",
+          "audio/model execution"
+        ],
+        "corrections_before_reuse": [
+          {
+            "kind": "resource_gate",
+            "finding": "Original formula omitted host MemAvailable. Independent full minimum still passes the observed snapshot; next stage must include both host and finite cgroup values and stop on unknown observations."
+          },
+          {
+            "kind": "absolute_command_deadline",
+            "finding": "Original harness tied enforcement to direct-parent liveness, leaving a latent descendant-held-pipe hang. Not hit in the returned run; corrected harness must enforce the deadline and drain cap after parent exit."
+          }
+        ],
+        "preserved_receipt_correction": "Initial --python regex false negative corrected against identical saved help; no controller rerun.",
+        "evidence_basis": "Archive hashes and arithmetic checked independently. Remote events remain receiver-reported, corroborated by returned source and command streams; no backend attestation or replay."
+      },
+      "worker_fallback": {
+        "status": "submitted_response_pending",
+        "submitted_utc": "2026-10-22T20:51:50.328Z",
+        "attachment_count": 1,
+        "archive_bytes": 136485,
+        "archive_sha256": "2726e0134944807a57cea1ff94a8031bd31924865b1746ef8eb1af91cf499dba",
+        "scope": "Two exact packaging metadata/wheel assets only, justified by observed failed requests; coordinator provenance, bounded request and manifest included.",
+        "receiving_request": "Fresh ABI/resource/controller/destination observations and corrected full memory minimum plus absolute-deadline harness; two tiny guard fixtures before conditional private offline installation.",
+        "receiving_installation_accepted": false,
+        "larger_worker_or_model_fallback_inferred": false
+      }
+    },
+    {
+      "id": "claude-opus-5-5",
+      "kind": "package_recipient",
+      "foundation": "qualified acceptance; exact-frame silence correction acknowledged",
+      "workers": {
+        "voice_gate": "thin handoff prepared and unsent",
+        "english_asr": "not established",
+        "music_geometry": "not established"
+      },
+      "next_missing_step": "Included route availability, then fresh exact-path marker/venv/import observation before the prepared Voice Gate handoff. October 20 venv evidence is not current persistence.",
+      "automatic_send": false
+    },
+    {
+      "id": "grokbot",
+      "collaborator": "Wren",
+      "kind": "package_recipient",
+      "foundation": "prepared unsent",
+      "workers": {},
+      "hold": "explicit_user_hold",
+      "next_missing_step": "Wait for explicit user resumption. Then verify intended desktop bot/project and actual capabilities before any delivery; no alternate Grok route substitution.",
+      "contact_allowed_by_this_plan": false
+    },
+    {
+      "id": "lilitari-earlier-route",
+      "kind": "historical_collaborator_route",
+      "foundation": "historical accepted",
+      "workers": {
+        "signal_core": "historical acceptance",
+        "voice_gate": "historical bounded acceptance",
+        "music_geometry": "historical bounded acceptance",
+        "english_asr": "later setup refused before worker launch"
+      },
+      "next_missing_step": "No automatic retry. Do not transfer old runtime claims into the distinct GPT-6 route or assume retained files.",
+      "native_audio_verified": false
+    },
+    {
+      "id": "gemini-argon-high",
+      "kind": "comparison_and_design_collaborator",
+      "package_recipient": false,
+      "next_missing_step": "No ears package. Existing format-retry closure remains; no established native-listening comparison or parity score."
+    }
+  ],
+  "delivery_sequence": [
+    "Record exact route/model UI/project identity, separating UI labels from backend attestation.",
+    "Verify only relevant existing project paths and fresh runtime/ABI/resources; avoid inherited unrelated files.",
+    "Use pinned ordinary official acquisition first for each needed public artifact.",
+    "Transfer custom source/evidence or a demonstrated acquisition gap only, with exact allowlist/size/hash.",
+    "Separate restore, private install/import, bounded worker execution, usefulness review and later persistence checks.",
+    "Preserve raw failures, versions, logs, source/time/channel bases and rights notices."
+  ],
+  "dated_pilot_accounting": {
+    "source_clips": 1,
+    "original_model_route_trials": 2,
+    "original_first_responses_passed": 1,
+    "original_first_responses_failed": 1,
+    "muse_assisted_revisions": 2,
+    "lily_gpt6_external_corrective_revisions": 0,
+    "final_accepted_responses": 2,
+    "general_success_rate_established": false,
+    "provider_ranking_established": false
+  },
+  "remaining_product_gap": "Public source release contains foundation tools and fixtures only. Route-specific worker packages and the existing private local runtime do not constitute a generally distributed, tested worker installer for every target.",
+  "followup_execution": "A proposed window is unexecuted. The coordinator selects an in-scope follow-up under current authorization; already-authorized inputs require no new permission.",
+  "public_reference": "Dated operation reference; receiving outcomes must be rechecked before new work."
+}
