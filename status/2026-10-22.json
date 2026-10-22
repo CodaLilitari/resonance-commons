@@ -1,381 +1,308 @@
 {
-  "schema": "resonance-commons.public-progress.v1",
+  "schema": "resonance-commons.public-progress.v2",
   "date_utc": "2026-10-22",
-  "scope": "Dated project outcomes through the reviewed October 22 checkpoint; initial source release unchanged. Muse assisted q17 acceptance, Lily original q17 acceptance, GPT-6 source-completion foundation, and Claude qualified foundation closure are independently reviewed. These bounded results do not establish native hearing or broad accuracy.",
+  "checkpoint_state": "closed_and_paused_at_user_requested_stopping_point",
+  "audio_work_state": "broader_local_and_hosted_audio_work_paused_at_user_requested_stopping_point",
+  "continuation_scheduled_by_publication": false,
+  "scope": "Two distinct licensed source clips, four original model-route evidence interpretations, separately counted assisted revisions, local guard checks and a hosted preflight stop. No general accuracy, provider ranking or native-hearing claim.",
   "source_release": {
     "version": "0.1.0-r2",
-    "bytes": 99106,
+    "archive_bytes": 99106,
     "sha256": "c92d6359657aff3910990979efbd317938644696f6755c3f080ee6750f1e6518",
-    "contains": "Standard-library evidence builder, five offline adapters, synthetic demo and validation.",
+    "archive_changed": false,
+    "contains": "Standard-library evidence builder, five offline adapters, synthetic demo and validation tools.",
     "separate": [
-      "Music Geometry",
-      "Voice Gate",
-      "ASR runtime",
-      "model weights",
-      "provider automation"
-    ],
-    "archive_changed": false
+      "Audio workers",
+      "Runtime dependencies",
+      "Model weights",
+      "Provider automation"
+    ]
   },
-  "routes": {
-    "grokbot": "Prepared desktop intake and direct-source-first foundation handoff remain unsent. Wren is explicitly pending at the user's request; no receiving execution accepted.",
-    "muse": "Historical foundation, bounded Voice Gate and official ASR asset restoration accepted; hosted ASR stopped at resource checks. q17 evidence interpretation accepted as assisted v3 with all six gates and 2/2/2 usefulness after two corrective revisions. The original response failed; no broad accuracy estimate.",
-    "chatgpt-6-pro": "Dedicated saved GPT-6 Pro UI route completed the source-code foundation after one exact source fallback. Three numeric bindings and corrected response structure independently accepted. Original q17 evidence interpretation passed all six frozen gates and scored 2/2/2; no native audio or broad accuracy established.",
-    "claude-opus-5-5": "Historical pure-Python acquisition/import acceptance retained. Foundation execution and eight numeric bindings accepted with channel/mono/plot provenance limits. Exact-frame silence correction and persistence dates acknowledged separately without new execution. October 20 venv observation does not establish fresh October 22 venv persistence. Native audio unaccepted. Foundation reconciliation is closed with these qualifications; the next thin Voice Gate handoff remains prepared and unsent pending route availability and a fresh environment check.",
-    "codex-local": "Persistent local dispatcher installed and exercised for Voice Gate, Music Geometry and English ASR. Fresh q17 Geometry dispatcher and separate Signal Core public-wrapper runs completed; historical same-source Voice Gate reused. Five ASR cases and five same-input Voice Gate cases retain the quality limits below.",
-    "lilitari": "Historical Signal Core, Music Geometry and bounded Voice Gate acceptance retained. Later ASR setup refused before its worker launched. Local-result interpretation accepted; continuing remote residence is not established.",
-    "gemini-argon-high": "Native-listening comparison and design collaborator, not one of the five package-recipient routes. Saved design consultation completed. This saved route reported audio unavailable and abstained on WAV, equivalent FLAC and final MP3 probes. The MP3 attachment persisted and Argon High was selected; separate response model details were unavailable. No native-listening comparison or parity score established; these observations do not establish general audio inability. Format retries stopped."
-  },
-  "music_geometry": {
-    "version": "0.1.1",
-    "later_return_reconciliation_checks": 155,
-    "accepted_scope": "Returned public-launcher, comparison and preservation evidence; historical adapted local smoke remains a separate observation.",
-    "remote_persistence_established": false
-  },
-  "local_music_integration": {
-    "source": {
-      "id": "q17",
-      "duration_seconds": 12,
-      "channels": 2,
-      "sample_rate_hz": 44100,
-      "sample_format": "PCM signed16",
-      "bytes": 2116844,
-      "sha256": "2ddd1ba12d3c9e2666071faa190ab9c9e59e02e1e0c7ea87fbc7327f220c2ae4"
-    },
-    "execution": {
-      "signal_core": {
-        "version": "0.1.3",
-        "method": "Fresh unchanged public verify/analyze wrappers under existing local resource and source guards; separate from the multi-tool dispatcher",
-        "verify_returncode": 0,
-        "analyze_returncode": 0,
-        "measurement_basis": "Channel-preserving decoded/resampled 48 kHz PCM16; separate mono derivative"
-      },
-      "music_geometry": {
-        "version": "0.1.1",
-        "method": "Fresh persistent local dispatcher",
-        "returncode": 0,
-        "measurement_basis": "22.05 kHz channel-preserving PCM S32LE and derived features",
-        "prior_pilot_measurements_reproduced": true,
-        "independent_acoustic_ground_truth_established": false
-      },
-      "voice_gate": {
-        "method": "Historical accepted output for the exact same source reused unchanged",
-        "rerun_for_integration": false,
-        "measurement_basis": "Per-source-channel 16 kHz model inputs; optional uncalibrated activity hypotheses"
-      }
-    },
-    "time_basis": {
-      "tool_interval_seconds": [
-        0,
-        12
-      ],
-      "decoded_parent_interval_seconds": [
-        10,
-        22
-      ],
-      "parent_mapping": "Separate curator derivation, not inferred by the tools",
-      "original_master_timecode_verified": false
-    },
-    "evidence_kit": {
-      "status": "muse_assisted_v3_accepted_original_failure_preserved",
-      "file_count": 23,
-      "bytes": 2929264,
-      "sha256": "7c8726134237bbb4218109afb55745877540e3328c6904293af37b2fc5d5521e",
-      "independently_checked_locally": true,
-      "contents": "Source/time/channel-bound data, plots and interpretation instructions",
-      "source_audio_included": false,
-      "models_or_executable_worker_included": false,
-      "delivered": true,
-      "receiver_interpretation_received": true,
-      "receiver_usefulness_established": true,
-      "receiver": "Muse",
-      "receiver_usefulness_scope": "Final assisted v3 passed all six frozen gates and scored 2/2/2 on supplied data/plots; one original Muse model-case trial, not native listening or independent acoustic truth.",
-      "receiver_interpretation_accepted": true,
-      "file_count_meaning": "23 ZIP members: 22 payload members plus manifest",
-      "expanded_bytes": 3368579,
-      "archive_bytes": 2929264,
-      "compressed_entry_payload_bytes": 2926514
-    },
-    "limit": "Local execution, packaging and repeatability evidence; no musical-accuracy or native-listening score. Different transformed signal bases are not interchangeable original-source measurements."
-  },
-  "local_asr": {
-    "engine": "whisper.cpp 1.9.5",
-    "model": "base.en",
-    "language": "English",
-    "reference_words": 37,
-    "substitutions": 1,
-    "deletions": 0,
-    "insertions": 0,
-    "micro_wer": 0.02702702702702703,
-    "exact_normalized_clips": 1,
-    "speech_clips": 2,
-    "substitution": "alimentary -> elementary",
-    "training_overlap": "Unknown; two public LJ Speech examples.",
-    "tone_failure": "Four-second 440 Hz tone produced (eerie music).",
-    "silence_timing_failure": "Three-second silence produced [BLANK_AUDIO] with a raw 0-10000 ms segment, flagged outside input bounds.",
-    "offset_diagnostic": "A two-second silent prefix preserved words; segment start shifts were 0 and 2000 ms, end shifts 2000 and 1980 ms. No onset or word alignment validation.",
-    "general_accuracy_established": false
-  },
-  "local_same_input_voice_gate": {
-    "threshold": 0.5,
-    "threshold_tuned": false,
-    "sample_rate_hz": 16000,
-    "cases": [
-      {
-        "id": "s01",
-        "kind": "speech",
-        "selected_frames": 218,
-        "frames": 237
-      },
-      {
-        "id": "s02",
-        "kind": "speech",
-        "selected_frames": 253,
-        "frames": 263
-      },
-      {
-        "id": "n01",
-        "kind": "silence",
-        "selected_frames": 0,
-        "frames": 94
-      },
-      {
-        "id": "n02",
-        "kind": "tone",
-        "selected_frames": 0,
-        "frames": 125
-      },
-      {
-        "id": "t01",
-        "kind": "offset diagnostic",
-        "selected_frames": 216,
-        "frames": 300
-      }
-    ],
-    "bounded_speech_no_speech_agreement": "4/4 fixtures; offset case separate.",
-    "same_decoded_channel_pcm_verified": true,
-    "automatic_transcript_suppression": false,
-    "general_vad_accuracy_established": false
-  },
-  "delivery_policy": "Use ordinary official acquisition first. Transfer only custom material or a demonstrated retrieval gap; receiving-host execution and evidence interpretation remain distinct.",
-  "limits": [
-    "Successful execution does not establish transcript correctness or semantic understanding.",
-    "A valid segment bounds flag establishes numeric containment only; preserve invalid raw times rather than silently clamping them.",
-    "Voice activity scores are optional and uncalibrated; music and singing require separate evaluation.",
-    "Historical installation acceptance does not prove continued sandbox residence.",
-    "No native subjective hearing, broad musical understanding, model parity, or complete five-provider rollout is claimed.",
-    "A useful assisted interpretation can still fail mandatory accuracy/provenance gates; correction is not a fresh independent trial."
-  ],
-  "prior_status": "2026-10-21.json",
-  "music_interpretation_trial": {
-    "case": "q17",
-    "basis": "Interpretation of disclosed data/plots only; no source audio or receiving audio inference.",
-    "rubric_frozen_before_response": true,
-    "independent_cases": 1,
-    "original": {
-      "status": "failed",
-      "passed_critical_gates": 3,
-      "total_critical_gates": 6,
-      "topic_scores": [
-        1,
-        1,
-        1
-      ],
-      "bounded_success": false,
-      "failures": "Incorrect beat times, invalid phase explanation for magnitude-averaged features, support inaccuracies and unsupported temporal/perceptual claims."
-    },
-    "assisted_v2": {
-      "status": "specific_residual_corrections_required",
-      "passed_critical_gates": 4,
-      "total_critical_gates": 6,
-      "topic_scores": [
-        2,
-        2,
-        2
-      ],
-      "bounded_success": false,
-      "required_residual_corrections": 6,
-      "remaining_topics": [
-        "Hop spacing versus physical event duration",
-        "Serialized timestamp precision",
-        "Spectrogram wording",
-        "Peak-difference value",
-        "Separate aggregate chroma from one-channel YIN output",
-        "Heuristic estimate versus measurement label"
-      ],
-      "historical": true,
-      "superseded_by": "assisted_v3; raw v2 and failed-gate record preserved"
-    },
-    "trial_accounting": "One original Muse model-case trial: original first response 0/1; accepted v3 after two assisted revisions. Revisions are not new independent trials. Another route on the same clip must be counted separately and is not another independent source clip.",
-    "native_listening": false,
-    "general_music_accuracy_established": false,
-    "provider_parity_established": false,
-    "recipient": "Muse",
-    "trial_unit": "Original model-route response on q17; additional routes on the same clip require separate accounting, not a new independent source clip.",
-    "distinct_source_clips": 1,
-    "assisted_v3": {
-      "status": "accepted_assisted_revision",
-      "passed_critical_gates": 6,
-      "total_critical_gates": 6,
-      "topic_scores": [
-        2,
-        2,
-        2
-      ],
-      "bounded_success": true,
-      "residual_corrections_resolved": 6,
-      "remaining_material_flaws": [],
-      "acceptance_scope": "One evidence-to-interpretation integration/usefulness case after explicit corrective feedback. Acceptance concerns a cautious reading of the supplied data and plots, not independent acoustic truth.",
-      "follow_up_executed": false
-    },
-    "original_first_responses_passed": 0,
-    "original_first_responses_total": 1,
-    "assisted_revisions": 2,
-    "lily_q17_delivered": true
-  },
-  "claude_foundation": {
-    "status": "qualified_foundation_accepted",
-    "returned_response_versions_preserved": 2,
-    "canonical_validation": {
-      "both_versions_exit_zero": true,
-      "structure_and_value_bindings_accepted": true,
-      "numeric_claims_per_response": 8,
-      "semantic_truth_certified": false
-    },
-    "accepted_scope": [
-      "Bounded supplied-code foundation outcome, supported by returned records",
-      "Eight exact metric/value/unit/evidence/time/channel/basis bindings",
-      "Channel/mono separation and visual channel mapping with rounding and provenance limits"
-    ],
-    "silence_qualification": {
-      "acknowledged": true,
-      "recorded_separately_from_unchanged_response_files": true,
-      "new_execution_for_acknowledgment": false,
-      "frame_seconds": 0.02,
-      "threshold_dbfs": -45,
-      "minimum_interval_seconds": 0.25,
-      "shortest_qualifying_full_frame_run": 13,
-      "shortest_qualifying_full_frame_run_seconds": 0.26,
-      "accepted_statement": "No run of 13 or more consecutive fixed 20 ms frames meets the all-channel -45 dBFS RMS criterion. This does not rule out shorter quiet frame runs or arbitrary low-average-RMS windows."
-    },
-    "persistence": {
-      "marker_and_old_venv_check_date_utc": "2026-10-20",
-      "source_retrieval_and_initial_verification_date_utc": "2026-10-20",
-      "foundation_cli_and_response_date_utc": "2026-10-22",
-      "post_run_source_records_unchanged": 34,
-      "fresh_oct22_old_venv_retention_import_established": false,
-      "indefinite_persistence_established": false
-    },
-    "remote_execution_limit": "Returned records support collaborator-reported execution; local frozen-validator replay independently checked returned bindings, not every remote filesystem/network event.",
-    "native_audio_verified": false,
-    "reconciliation_closed_with_qualifications": true,
-    "next_voice_gate_handoff": {
-      "status": "prepared_unsent",
-      "gates": [
-        "Route availability",
-        "Fresh exact-path persistence/import observation for the required old environment"
-      ],
-      "native_model_acceptance": false
-    }
-  },
-  "chatgpt6_foundation": {
-    "status": "bounded_source_foundation_accepted",
-    "requested_ui_route_observed": true,
-    "separate_saved_conversation_created": true,
-    "backend_identity_attested": false,
-    "partial_return": {
-      "archive_manifest_records_verified": 28,
-      "manifest_closure_passed": true,
-      "numeric_bindings_correct": 3,
-      "canonical_validator_exit_code": 2,
-      "response_structurally_accepted": false,
-      "required_schema_corrections": [
-        "Clearly attributed requested-model UI observation",
-        "Valid coverage enum matching response status"
-      ],
-      "source_dependent_commands_executed_in_partial_return": 0
-    },
-    "ordinary_source_acquisition": {
-      "attempts": 1,
-      "retries": 0,
-      "http_status": null,
-      "body_bytes": 0,
-      "failure": "PermissionError before an HTTP response; receiver source-specific acquisition gap, not proof of a server HTTP denial or universal network restriction."
-    },
-    "targeted_fallback": {
-      "submitted": true,
-      "bytes": 99106,
-      "sha256": "c92d6359657aff3910990979efbd317938644696f6755c3f080ee6750f1e6518",
-      "source_archive_changed": false,
-      "custom_handoff_reuploaded": false,
-      "scope": "Only the demonstrated missing public source; bounded source-dependent commands and one separate schema correction, preserving the original partial result."
-    },
-    "foundation_complete": true,
-    "foundation_accepted": true,
-    "native_audio_verified": false,
-    "completion": {
-      "archive_bytes": 28175,
-      "manifest_records_verified": 30,
-      "source_records_verified": 34,
-      "command_exit_codes": [
-        0,
-        0,
-        2,
-        0
-      ],
-      "canonical_local_v2_exit_code": 0,
-      "schema_values_corrected": 6,
-      "measurement_claims": 3,
-      "interpretation_claims": 1,
-      "numeric_and_interpretation_content_unchanged": true,
-      "original_failure_preserved": true,
-      "frozen_readiness_unchanged": true,
-      "current_observations_recorded_separately": true,
-      "semantic_truth_validated": false,
-      "indefinite_persistence_established": false
-    },
-    "separate_current_observation_check": {
-      "canonical_check_exit_code": 0,
-      "configured_route_readiness": true,
-      "four_current_gates": true,
-      "observation_basis": "Dated coordinator UI and completed-run receipts; caller-supplied, not independently attested by the CLI",
-      "historical_frozen_observation_unchanged": true,
-      "indefinite_residence_or_future_quota_guaranteed": false,
-      "native_audio_verified": false
-    }
-  },
-  "lily_music_interpretation_trial": {
-    "case": "q17",
-    "route": "GPT-6 Pro UI selected in dedicated saved conversation",
-    "status": "accepted_original_response",
-    "passed_critical_gates": 6,
-    "total_critical_gates": 6,
-    "topic_scores": [
-      2,
-      2,
-      2
-    ],
-    "external_corrective_revisions": 0,
-    "structured_value_bindings_checked": 20,
-    "numeric_mismatches": 0,
-    "manifest_sha_checked": true,
-    "follow_up_interval_seconds": [
-      4.5,
-      6.5
-    ],
-    "follow_up_executed": false,
-    "other_route_answers_or_evaluator_checklist_shared": false,
-    "native_hearing_established": false,
-    "backend_identity_attested": false
-  },
-  "cross_route_trial_accounting": {
-    "distinct_source_clips": 1,
-    "original_model_route_trials": 2,
-    "original_responses_evaluated": 2,
-    "original_first_response_passes": 1,
-    "original_first_response_failures": 1,
-    "accepted_after_assisted_revision": 1,
+  "music_interpretation": {
+    "evaluation_scope": "Faithful and useful interpretation of supplied measurements and, for q17 only, plots. No source audio or receiving-host audio inference.",
+    "criteria_frozen_before_original_responses": true,
+    "same_packet_for_each_route_within_case": true,
+    "original_responses_received_no_same_case_other_route_answers_or_private_evaluator_checklist": true,
+    "distinct_source_clips": 2,
+    "original_model_route_responses": 4,
+    "original_responses_accepted": 2,
+    "original_responses_failed": 2,
+    "failed_original_cases_later_accepted_after_assistance": 2,
+    "model_route_cases_with_an_accepted_final_reading": 4,
+    "assisted_revision_responses": 3,
     "additional_independent_trials_from_revisions": 0,
     "general_accuracy_rate_established": false,
-    "provider_ranking_established": false
-  }
+    "provider_ranking_established": false,
+    "independent_acoustic_or_semantic_ground_truth_established": false,
+    "native_hearing_established": false,
+    "followups_executed": false,
+    "cases": [
+      {
+        "id": "q17",
+        "duration_seconds": 12,
+        "channels": 2,
+        "packet": {
+          "archive_bytes": 2929264,
+          "zip_members": 23,
+          "payload_members": 22,
+          "expanded_bytes": 3368579,
+          "sha256": "7c8726134237bbb4218109afb55745877540e3328c6904293af37b2fc5d5521e",
+          "contents": "Measurements, plots, source/time/channel definitions and interpretation instructions",
+          "source_audio_included": false,
+          "executable_audio_worker_included": false
+        },
+        "routes": [
+          {
+            "route": "Lily / ChatGPT 6 Pro",
+            "original_status": "accepted",
+            "original_gates_passed": 6,
+            "critical_gates": 6,
+            "original_topic_scores": [
+              2,
+              2,
+              2
+            ],
+            "assisted_revisions": 0,
+            "final_status": "accepted_original_response"
+          },
+          {
+            "route": "Muse",
+            "original_status": "failed",
+            "original_gates_passed": 3,
+            "critical_gates": 6,
+            "original_topic_scores": [
+              1,
+              1,
+              1
+            ],
+            "assisted_revisions": 2,
+            "revision_outcomes": [
+              {
+                "version": "v2",
+                "status": "not_accepted",
+                "gates_passed": 4,
+                "topic_scores": [
+                  2,
+                  2,
+                  2
+                ]
+              },
+              {
+                "version": "v3",
+                "status": "accepted",
+                "gates_passed": 6,
+                "topic_scores": [
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "final_status": "accepted_assisted_v3",
+            "original_failure_preserved": true
+          }
+        ]
+      },
+      {
+        "id": "q93",
+        "duration_seconds": 12,
+        "channels": 2,
+        "focus_interval_seconds": [
+          8,
+          12
+        ],
+        "focus_is_new_crop": false,
+        "packet": {
+          "archive_bytes": 36460,
+          "zip_members": 12,
+          "payload_members": 11,
+          "expanded_bytes": 93813,
+          "sha256": "b92e795263fceb90f75837c809e5513adb49013d5b5ed7888cefe962f277c317",
+          "contents": "Five unchanged Geometry JSON/CSV files plus source/time/method/attribution envelope; no plots or Signal Core/downmix measurements",
+          "source_audio_included": false,
+          "executable_audio_worker_included": false
+        },
+        "routes": [
+          {
+            "route": "Lily / ChatGPT 6 Pro",
+            "original_status": "accepted",
+            "original_gates_passed": 6,
+            "critical_gates": 6,
+            "original_topic_scores": [
+              2,
+              2,
+              2
+            ],
+            "assisted_revisions": 0,
+            "final_status": "accepted_original_response"
+          },
+          {
+            "route": "Muse",
+            "original_status": "failed",
+            "original_gates_passed": 4,
+            "critical_gates": 6,
+            "original_topic_scores": [
+              2,
+              1,
+              2
+            ],
+            "assisted_revisions": 1,
+            "revision_outcomes": [
+              {
+                "version": "v2",
+                "status": "accepted",
+                "gates_passed": 6,
+                "topic_scores": [
+                  2,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "final_status": "accepted_assisted_v2",
+            "original_failure_preserved": true
+          }
+        ]
+      }
+    ],
+    "lessons": [
+      "Correct numerical comparisons can coexist with unsupported musical conclusions; both must be checked.",
+      "Low spectral flatness does not uniquely establish a pure tone, and a monophonic pitch estimate is not verified physical periodicity.",
+      "A higher window average does not establish a constant signal or monotonic change within that window.",
+      "Missing beat candidates do not establish that rhythmic events stopped.",
+      "Global channel summaries do not establish local balance, phase, stereo width or mono behavior."
+    ]
+  },
+  "execution_safeguards": {
+    "local_command_guard": {
+      "environment_scope": "Local Linux checks only",
+      "expected_outcome_checks": 6,
+      "expected_outcomes_met": 6,
+      "ordinary_fixture_cases": [
+        "Normal completion",
+        "Output-cap cleanup",
+        "Early command exit with a child holding the output pipe"
+      ],
+      "instrumented_regressions": [
+        "Late completion observation",
+        "Late result recording",
+        "Exhausted output-drain allowance"
+      ],
+      "ordinary_success_is_not_fixture_pass": true,
+      "hosted_execution_established_by_local_checks": false,
+      "audio_quality_tests": 0,
+      "general_supervisor_certification": false
+    },
+    "hosted_process_api_diagnostic": {
+      "route": "chatgpt-6-pro",
+      "status": "accepted_bounded_diagnostic",
+      "scope": "The single owned-process lifecycle behavior exercised in that diagnostic",
+      "installation_accepted": false,
+      "audio_capability_established": false,
+      "earlier_bootstrap_cleanup_failure_preserved": true
+    },
+    "hosted_command_guard_cap_request": {
+      "route": "chatgpt-6-pro",
+      "status": "stopped_before_fixture_execution",
+      "reason": "The documented execution interface supplies a yield timeout, not the enforced outer termination timeout required by the request.",
+      "reported_fixture_launches": 0,
+      "cap_outcome": "not_evaluated",
+      "source_bytes_preserved_and_verified": true,
+      "fresh_ABI_resource_sample_taken": false,
+      "guard_test_pass": null,
+      "evidence_limit": "Returned records and source equality independently checked; this is not independent operating-system telemetry or proof about undisclosed backend controls."
+    },
+    "voice_gate_acquisition_candidate": {
+      "route": "chatgpt-6-pro",
+      "status": "frozen_unsent_not_ready_for_dispatch",
+      "version": "0.1.0",
+      "provider_dispatch_authorized_by_this_checkpoint": false,
+      "prerequisites": [
+        "Accepted hosted installation bootstrap",
+        "Separately reviewed update bound to that accepted environment"
+      ],
+      "frozen_candidate_silently_repointed": false
+    }
+  },
+  "routes": {
+    "lilitari": {
+      "accepted_or_observed": "Historical Signal Core, Music Geometry and bounded Voice Gate results.",
+      "open_or_held": "Later hosted ASR setup stopped before its worker launched; continuing sandbox residence is unestablished."
+    },
+    "muse": {
+      "accepted_or_observed": "Foundation, bounded Voice Gate, official ASR asset restoration and assisted q17/q93 interpretations.",
+      "open_or_held": "Hosted ASR remains stopped at resource checks; the latest small retention/resource observation did not authorize retry."
+    },
+    "claude-opus-5-5": {
+      "accepted_or_observed": "Qualified foundation reconciliation and numeric bindings; exact frame-based silence correction acknowledged separately.",
+      "open_or_held": "Thin Voice Gate handoff remains prepared and unsent pending route availability and a fresh environment check; native audio remains unaccepted.",
+      "qualification": "The accepted silence statement concerns the specified fixed-frame criterion, not all quiet intervals. Dated environment evidence does not establish indefinite residence."
+    },
+    "chatgpt-6-pro": {
+      "accepted_or_observed": "Foundation, two original music-evidence interpretations and one narrow process-API diagnostic.",
+      "open_or_held": "Hosted command-guard cap fixture unattempted after preflight stop; installation bootstrap and native audio remain unaccepted.",
+      "model_scope": "Observed selected UI route; backend identity is not independently attested."
+    },
+    "codex-local": {
+      "accepted_or_observed": "Persistent dispatcher exercised for Voice Gate, Music Geometry and English ASR.",
+      "open_or_held": "Small fixtures do not establish broad music, ASR or VAD accuracy; historical quality failures remain preserved."
+    },
+    "grokbot": {
+      "accepted_or_observed": "Prepared desktop intake and foundation handoff.",
+      "open_or_held": "Explicitly pending at the user's request; no delivery or receiving execution established."
+    },
+    "gemini-argon-high": {
+      "accepted_or_observed": "Design collaborator and proposed native-listening comparator, not an ears-package recipient.",
+      "open_or_held": "No comparison score established. Saved-route audio-unavailable observations do not establish general inability to listen; format retries remain closed."
+    }
+  },
+  "delivery_policy": {
+    "ordinary_official_acquisition_first": true,
+    "uploads": "Custom project material or an asset whose ordinary retrieval is demonstrably unavailable to that route.",
+    "per_asset_gap_required": true,
+    "bulk_transfer_inferred_from_one_failure": false,
+    "milestones_kept_separate": [
+      "Asset uploaded",
+      "Evidence interpretation accepted",
+      "Environment installed",
+      "Audio capability exercised"
+    ]
+  },
+  "holds_preserved": [
+    "Wren pending at the user's request",
+    "Gemini saved-route format retries closed",
+    "Muse hosted ASR resource stop",
+    "Claude thin Voice Gate handoff unsent pending prerequisites",
+    "Hosted ChatGPT installation/audio continuation unaccepted",
+    "Frozen acquisition candidate unsent and not ready for dispatch",
+    "Proposed interpretation follow-ups unexecuted"
+  ],
+  "historical_local_speech_results": {
+    "status": "unchanged",
+    "public_reference": "2026-10-21.md",
+    "machine_readable_reference": "2026-10-21.json",
+    "retained_failures": [
+      "Transcription substitution",
+      "Tone false positive",
+      "Out-of-bounds silence segment",
+      "Nonuniform segment timing shifts"
+    ],
+    "general_ASR_or_VAD_accuracy_established": false
+  },
+  "complete_five_recipient_rollout": false,
+  "privacy": {
+    "private_conversations_included": false,
+    "private_chat_urls_included": false,
+    "account_details_included": false,
+    "personal_paths_included": false,
+    "host_telemetry_included": false,
+    "source_media_or_model_weights_included": false
+  },
+  "limits": [
+    "Two source clips and assisted corrections do not establish general accuracy or provider ranking.",
+    "Accepted supplied-evidence interpretation does not establish native hearing or independent acoustic truth.",
+    "Local guard checks are not hosted tests, installation acceptance or audio tests.",
+    "Historical acceptance does not establish current or indefinite sandbox residence.",
+    "A reviewed preflight stop is not a passing execution result."
+  ]
 }

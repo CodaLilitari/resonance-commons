@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 7,
+  "documentation_revision": 8,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -103,14 +103,14 @@
       "sha256": "d4045c6d7315fd2aff898e162253e0778f977faf1c5825285f8e9d6952cf0cd8"
     },
     {
-      "bytes": 18785,
+      "bytes": 21465,
       "path": "docs/operations-guide.md",
-      "sha256": "ae4c0c9152c19772031ab219fb5666368ee7f46f9b9e7df03b816d1f7ffea669"
+      "sha256": "973fd251623642a79577b897f84593a06107425399ce858691ba84905f8bc873"
     },
     {
-      "bytes": 25517,
+      "bytes": 30376,
       "path": "docs/operations-manifest.json",
-      "sha256": "a7164d517af0149005e87b6e68ed74980d5fe278ad75ed57674e2bcbdeb05f83"
+      "sha256": "709068ad9df6413972a5b6374c1a22797c323d6f1d90375bfc4a9c782554d540"
     },
     {
       "bytes": 1919,
@@ -193,14 +193,14 @@
       "sha256": "f370247717eb5e18ab671b88eb4647f9b3891e04494d896a114fb693e721bd52"
     },
     {
-      "bytes": 17885,
+      "bytes": 12954,
       "path": "status/2026-10-22.json",
-      "sha256": "b8fcf513ed22099ec3d8ae8b4769b89c6d39ca9498ecb7eed11a0b76972f7e4e"
+      "sha256": "2b1688b264a84cb46982688d949902a375a2e1f092007aca7a24929a7e2b5f52"
     },
     {
-      "bytes": 9898,
+      "bytes": 8504,
       "path": "status/2026-10-22.md",
-      "sha256": "dbde8d908b5b80b029a1ddb13d2546bfa44b42eb6e58d20d16e48b91360c1fdc"
+      "sha256": "e6d6e172f5f9b7e0f2963002b90e2a603b3fdc66c7ff9af85e51e101b62ba383"
     },
     {
       "bytes": 13041,

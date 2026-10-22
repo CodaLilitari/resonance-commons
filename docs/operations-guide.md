@@ -1,6 +1,6 @@
 # Resonance Commons operation guide
 
-Reviewed operation reference, 22 October 2026. Coda, collaborating with Andrei; Lily named
+Reviewed stopping-point update, 22 October 2026. Coda, collaborating with Andrei; Lily named
 Resonance Commons and created the EchoSeam edition family.
 
 **The public foundation adapters can verify evidence, prepare a handoff and
@@ -15,6 +15,11 @@ commands requiring the separately installed local runtime. It records dated
 receiving outcomes without promising that a remote environment is still present.
 The adjacent `operations-manifest.json` lists route states and exact
 entrypoint templates. This document changes no frozen release or runtime file.
+
+Broader work is paused at the requested stopping point. The remaining activity
+is the separately requested GitLab and portfolio update. The commands below are
+use references; no new provider task, alternate launcher, fixture, acquisition,
+installation, audio/model run or interpretation follow-up is scheduled.
 
 ## 1. Use the public foundation
 
@@ -96,6 +101,12 @@ its response-envelope validator. Use that kit's own request/response template
 and frozen evaluation rubric for the pilot; do not substitute the public CLI's
 schema check for that evaluation. A generic multi-worker packet builder is not
 part of the current source release.
+
+The second source, **q93**, used a separate 36,460-byte, 12-member data-only kit
+with 11 payload files. It carries existing Music Geometry JSON/CSV evidence and
+source/time notes, without audio or plots. Its interpretation assessment is also
+separate from the public foundation validator. The frozen rubric stayed with the
+coordinator and was not included in the receiving handoff.
 
 ## 3. Use the separately installed Codex local runtime
 
@@ -214,10 +225,30 @@ success. All 26 archive members and 25 payload bindings were verified.
 This is one observed compatibility result, not a namespace diagnosis, a general
 cleanup guarantee or acceptance of a reusable installation guard. The two
 absence calls share the same process interface. Escalation, failure branches
-and output-cap exhaustion were not exercised. The next missing prerequisites
-are an exact reusable guard under review and a bounded output-cap fixture;
-fixture B, private venv creation and the packaging-only install remain
-unaccepted. No installation or audio capability follows from this diagnostic.
+and output-cap exhaustion were not exercised. No installation or audio capability
+follows from this diagnostic.
+
+A later reusable-guard candidate received four source corrections, three local
+fixture checks and three targeted, instrumented regression checks. Independent
+source review and coordinator review cleared one receiving cap fixture only.
+The six local checks do not prove receiving behavior; a regression can pass by
+correctly rejecting an over-budget or forced-closure case.
+
+The receiver then **stopped before launching that fixture**. The exact request
+required an outer execution control that would terminate execution within ten
+seconds. The documented tool exposed an output-yield interval, which can return
+while execution continues. That did not satisfy the termination prerequisite.
+Independent review accepted the returned account of this stop: all 19 archive
+members and 18 payload bindings were verified, and all six supplied source files
+were byte-identical. A malformed receipt's trailing literal escape was preserved
+alongside an equivalent valid copy; neither source nor test result was repaired.
+
+Zero fixture launches is a supported receiver report, not independent process
+telemetry. No cap result, cleanup timing result or fresh ABI/resource gate was
+produced. This is an audited prerequisite stop, not a passing cap test. The
+checkpoint ends here: no alternate launcher, retry, fixture B, private venv,
+packaging installation or audio execution is scheduled by this guide. A future
+continuation would need a separately reviewed execution design and fresh gates.
 
 A distinct acquire-only Voice Gate packet is prepared and unsent. Its local
 standard-library fixtures passed 17/17 under WSL Python 3.14.4; Windows passed
@@ -235,8 +266,8 @@ fallback is justified without an observed failure for that specific asset.
 | Route | Established by the saved evidence | Next missing step |
 |---|---|---|
 | Codex Local | Installed persistent dispatcher and bounded Voice Gate, Geometry and English ASR executions; direct use instructions exist | Use an explicitly authorized input with fresh automatic guards. A general installer for a different user's machine is not delivered by the public foundation |
-| Muse / Nua | Foundation, bounded Voice Gate, official ASR asset restoration, and q17 interpretation accepted after two assisted revisions; fresh reported resource/retention observation accepted with evidence limits | Reported 447,262,720 available bytes remain below the unchanged 768 MiB floor. Seven small-file pins match; bulk assets were only stat-checked. The refresh checkpoint is closed without a new ASR attempt, resource poll or duplicate upload |
-| GPT-6 Pro / Lily | Separate foundation and original q17 interpretation accepted; offline fixture A failure preserved; a distinct process-API diagnostic passed within its narrow observed scope | Reusable guard review and output-cap fixture remain missing before any private bootstrap continuation. Acquire-only 0.1.0 is locally tested and reviewed but frozen, unsent and not dispatchable; a successful new bootstrap needs a new packet version and binding. No private install or audio-worker acceptance |
+| Muse / Nua | Foundation, bounded Voice Gate and official ASR asset restoration accepted; q17 accepted after two assisted revisions, q93 after one; both original interpretation failures preserved | Interpretation checkpoints closed. Reported 447,262,720 available bytes remain below the unchanged 768 MiB floor. Seven small-file pins match; bulk assets were only stat-checked. ASR/resource checkpoint stays closed without retry, poll or duplicate upload |
+| GPT-6 Pro / Lily | Separate foundation and original q17/q93 interpretations accepted; offline fixture A failure preserved; narrow process-API diagnostic accepted; later guard request stopped before fixture execution and that stop independently audited | Current checkpoint stops here. A future continuation needs a reviewed execution design with the required outer termination control and fresh gates; no alternate launcher or retry is scheduled. Acquire-only 0.1.0 remains frozen, unsent and not dispatchable. No private install or audio-worker acceptance |
 | Claude Opus 5.5 / Red | Qualified foundation and numeric bindings accepted; exact-frame silence correction acknowledged | Next thin Voice Gate handoff is prepared and unsent, pending route availability and a fresh exact-path marker/venv/import check. October 20 venv evidence is not an October 22 retention check |
 | Grokbot desktop / Wren | Reviewed intake and foundation requests prepared, unsent | Explicitly held by the user. Do not contact, substitute another Grok route or request foreground interaction until resumed |
 | Earlier Lilitari route | Historical Signal Core, Geometry and Voice Gate acceptance; later ASR setup refused before worker launch | Do not transfer acceptance to the separate GPT-6 VM or assume old files persist. Keep earlier ASR refusal evidence; no automatic retry |
@@ -249,16 +280,27 @@ source or execution trace, and elapsed duration were not returned. The 30-second
 cap and exact read sequence therefore remain unverified. Bulk file sizes do not
 establish bulk content integrity, installed-runtime readiness or future retention.
 
-The q17 outcomes are two original route responses on **one source clip**:
-Muse's first response failed and v3 passed after two assisted revisions; Lily's
-GPT-6 original passed without external correction. Both final responses passed
-six frozen gates and scored 2/2/2 for bounded usefulness. These counts do not
-estimate broad accuracy or rank providers. A proposed follow-up window remains
-unexecuted. The coordinator must select an in-scope follow-up under the current
-authorization before execution; already-authorized inputs need no new permission.
-A second source, q93, is a future recommendation only: unselected, unpackaged
-and undispatched. Its existing local evidence does not add another receiving
-interpretation trial to the q17 counts above.
+The dated interpretation outcomes cover **two source clips**, with two original
+route responses per source:
+
+| Source | Lily / GPT-6 original | Muse / Nua original | Muse assisted outcome |
+|---|---|---|---|
+| q17 | Accepted: six gates, scores 2/2/2 | Failed | v3 accepted after two assisted revisions: six gates, scores 2/2/2 |
+| q93 | Accepted: six gates, scores 2/2/2 | Failed: four gates passed, two failed; scores 2/1/2 | v2 accepted after one assisted revision: six gates, scores 2/2/2 |
+
+That is four original model-route trials: two accepted originals and two failed
+originals. Three assisted revisions produced the two accepted Muse responses;
+those revisions are not additional independent trials. For q93, Lily's original
+also passed 64 local checks of stored-data arithmetic and bindings. These are
+small, bounded interpretation cases, not an estimate of broad accuracy, native
+listening ability or provider ranking. Source-aligned reading and hashing reports
+do not independently attest every remote operation or backend identity.
+
+Proposed follow-up windows remain unexecuted. This checkpoint adds no new media
+analysis or listening. Any later in-scope follow-up must first be selected by the
+coordinator under current authorization; already-authorized inputs need no new
+permission. Preserve original failures, revised responses and their independent
+assessments separately.
 
 For each future delivery retain the source/release pins, exact sent allowlist,
 dated route observation, acquisition successes and failures, installation and
