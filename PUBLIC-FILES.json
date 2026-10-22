@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 4,
+  "documentation_revision": 5,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -20,7 +20,7 @@
     {
       "bytes": 9023,
       "path": "README.md",
-      "sha256": "ba86dbf7aa09b5ad2a9529df6899e315577c2a5a046ddecdd5034e49b570aa58"
+      "sha256": "9e42307582844e0b2edeca75a0527d605565d840a1397a016410624070882028"
     },
     {
       "bytes": 6732,
@@ -183,6 +183,16 @@
       "sha256": "f370247717eb5e18ab671b88eb4647f9b3891e04494d896a114fb693e721bd52"
     },
     {
+      "bytes": 17885,
+      "path": "status/2026-10-22.json",
+      "sha256": "b8fcf513ed22099ec3d8ae8b4769b89c6d39ca9498ecb7eed11a0b76972f7e4e"
+    },
+    {
+      "bytes": 9898,
+      "path": "status/2026-10-22.md",
+      "sha256": "dbde8d908b5b80b029a1ddb13d2546bfa44b42eb6e58d20d16e48b91360c1fdc"
+    },
+    {
       "bytes": 13041,
       "path": "tests/test_routes.py",
       "sha256": "c27ca3583667de8e78674d2982c923a77b8f1dc81b5525c12ebac3ee4a6c9757"
@@ -210,7 +220,7 @@
     "private_conversation_references": false,
     "private_route_identity_names": false
   },
-  "publication_status": "Current public documentation tree, updated 2026-10-21; SOURCE-FILES.json and the initial release ZIP retain the original release snapshot.",
+  "publication_status": "Current public documentation tree, updated 2026-10-22; SOURCE-FILES.json and the initial release ZIP retain the original release snapshot.",
   "schema": "resonance-commons.public-files.v1",
   "self_excluded": "PUBLIC-FILES.json is excluded from its own file rows to avoid recursion; its SHA256 accompanies delivery",
   "version": "0.1.0"

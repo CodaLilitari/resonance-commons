@@ -13,7 +13,7 @@ and unverified capabilities explicit.
 
 ## Current project status
 
-See the [21 October 2026 status update](status/2026-10-21.md) for later local
+See the [22 October 2026 status update](status/2026-10-22.md) for later local
 worker tests and provider handoffs. The initial 0.1.0-r2 release archive and
 `SOURCE-FILES.json` remain the frozen release snapshot; they do not describe a
 new bundle containing the separate workers. `PUBLIC-FILES.json` records the
