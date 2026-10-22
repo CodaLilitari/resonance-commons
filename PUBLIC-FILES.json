@@ -1,5 +1,5 @@
 {
-  "documentation_revision": 6,
+  "documentation_revision": 7,
   "excluded_review_history": "releases/review-history contains superseded prepublication review artifacts; not part of the public allowlist and ignored by Git",
   "files": [
     {
@@ -103,14 +103,14 @@
       "sha256": "d4045c6d7315fd2aff898e162253e0778f977faf1c5825285f8e9d6952cf0cd8"
     },
     {
-      "bytes": 16188,
+      "bytes": 18785,
       "path": "docs/operations-guide.md",
-      "sha256": "71fb876398cc05d882e6218dd1a555aa2b35d8f4c5de866e818c64486fc3558d"
+      "sha256": "ae4c0c9152c19772031ab219fb5666368ee7f46f9b9e7df03b816d1f7ffea669"
     },
     {
-      "bytes": 18978,
+      "bytes": 25517,
       "path": "docs/operations-manifest.json",
-      "sha256": "d8c2dd22a822b59d86984fd98b14d1819e5937f02b0e67074dc5617d1118ae2a"
+      "sha256": "a7164d517af0149005e87b6e68ed74980d5fe278ad75ed57674e2bcbdeb05f83"
     },
     {
       "bytes": 1919,

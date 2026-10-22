@@ -187,14 +187,48 @@ The independent audit accepted those partial observations with two corrections
 required before reuse: include host available memory in the conservative cgroup
 minimum, and enforce the command deadline even if the direct parent exits while
 a descendant holds a pipe. The corrected memory calculation still passes the
-observed snapshot; the pipe/deadline failure did not occur in the returned run.
+observed snapshot; that latent pipe/deadline defect was not exercised in the
+initial bootstrap run.
 Filesystem and command events remain receiver-reported, corroborated by returned
 source, receipts and command streams. The exact 136,485-byte offline fallback
-has now been submitted as one attachment; its receiving result is pending. It
-contains the two demonstrated missing public assets, coordinator provenance,
-a bounded request and a manifest. The request requires corrected guards, two
-small guard fixtures and fresh observations before any private installation.
-Sending that packet does not establish a successful install.
+was submitted as one attachment, containing the two demonstrated missing public
+assets, coordinator provenance, a bounded request and a manifest. Its returned
+86,120-byte evidence archive is accepted as a preserved failure. All 54 members
+and 53 payload bindings were verified. The corrected resource calculation passed
+on the reported snapshot, but fixture A could not establish descendant cleanup:
+the process API's identities conflict with the visible `/proc` identities.
+
+The stat parser was correct. The evidence proves neither an owned descendant
+leak nor the mechanism behind the mismatched views. The command deadline and
+stream completion were observed, but the complete fixture was not accepted.
+The receiver stopped before fixture B, guarded pip checks, venv creation,
+installation or `packaging` import. This failure remains preserved unchanged.
+A separate text-only process-API lifecycle diagnostic returned a bounded pass.
+Fresh direct-child and grandchild identities agreed through that one interface.
+After one group SIGTERM, both absence calls returned `ProcessLookupError` with
+`ESRCH`; the direct child was reaped and both pipes reached actual EOF. The
+command record completed at about 1.026 seconds within the fixed three-second
+budget. Its deliberate command timeout remains distinct from ordinary command
+success. All 26 archive members and 25 payload bindings were verified.
+
+This is one observed compatibility result, not a namespace diagnosis, a general
+cleanup guarantee or acceptance of a reusable installation guard. The two
+absence calls share the same process interface. Escalation, failure branches
+and output-cap exhaustion were not exercised. The next missing prerequisites
+are an exact reusable guard under review and a bounded output-cap fixture;
+fixture B, private venv creation and the packaging-only install remain
+unaccepted. No installation or audio capability follows from this diagnostic.
+
+A distinct acquire-only Voice Gate packet is prepared and unsent. Its local
+standard-library fixtures passed 17/17 under WSL Python 3.14.4; Windows passed
+16 with one Linux-only test skipped. These tests do not establish behavior on
+the receiving CPython 3.12 runtime. The coordinator also verified the exact
+archive, all 23 payload bindings and the complete wrapper/request. The design
+is accepted as staged, but version 0.1.0 binds the failed offline-bootstrap
+directory and is not dispatchable. Any successful continuation needs a separately
+versioned packet and binding to its accepted new directory; keep 0.1.0 frozen.
+The packet does not install dependencies or execute Voice Gate, and no larger public asset
+fallback is justified without an observed failure for that specific asset.
 
 ## 5. Dated route dispositions and next missing step
 
@@ -202,7 +236,7 @@ Sending that packet does not establish a successful install.
 |---|---|---|
 | Codex Local | Installed persistent dispatcher and bounded Voice Gate, Geometry and English ASR executions; direct use instructions exist | Use an explicitly authorized input with fresh automatic guards. A general installer for a different user's machine is not delivered by the public foundation |
 | Muse / Nua | Foundation, bounded Voice Gate, official ASR asset restoration, and q17 interpretation accepted after two assisted revisions; fresh reported resource/retention observation accepted with evidence limits | Reported 447,262,720 available bytes remain below the unchanged 768 MiB floor. Seven small-file pins match; bulk assets were only stat-checked. The refresh checkpoint is closed without a new ASR attempt, resource poll or duplicate upload |
-| GPT-6 Pro / Lily | Separate foundation and original q17 interpretation accepted; worker bootstrap partially accepted for dated runtime, filesystem and existing installer observations, with two guard corrections required | Two exact public acquisition attempts failed before HTTP. One targeted metadata/wheel fallback was submitted; its receiving result is pending. Private venv installation and audio workers remain unestablished; foundation readiness does not establish either |
+| GPT-6 Pro / Lily | Separate foundation and original q17 interpretation accepted; offline fixture A failure preserved; a distinct process-API diagnostic passed within its narrow observed scope | Reusable guard review and output-cap fixture remain missing before any private bootstrap continuation. Acquire-only 0.1.0 is locally tested and reviewed but frozen, unsent and not dispatchable; a successful new bootstrap needs a new packet version and binding. No private install or audio-worker acceptance |
 | Claude Opus 5.5 / Red | Qualified foundation and numeric bindings accepted; exact-frame silence correction acknowledged | Next thin Voice Gate handoff is prepared and unsent, pending route availability and a fresh exact-path marker/venv/import check. October 20 venv evidence is not an October 22 retention check |
 | Grokbot desktop / Wren | Reviewed intake and foundation requests prepared, unsent | Explicitly held by the user. Do not contact, substitute another Grok route or request foreground interaction until resumed |
 | Earlier Lilitari route | Historical Signal Core, Geometry and Voice Gate acceptance; later ASR setup refused before worker launch | Do not transfer acceptance to the separate GPT-6 VM or assume old files persist. Keep earlier ASR refusal evidence; no automatic retry |
@@ -222,6 +256,9 @@ six frozen gates and scored 2/2/2 for bounded usefulness. These counts do not
 estimate broad accuracy or rank providers. A proposed follow-up window remains
 unexecuted. The coordinator must select an in-scope follow-up under the current
 authorization before execution; already-authorized inputs need no new permission.
+A second source, q93, is a future recommendation only: unselected, unpackaged
+and undispatched. Its existing local evidence does not add another receiving
+interpretation trial to the q17 counts above.
 
 For each future delivery retain the source/release pins, exact sent allowlist,
 dated route observation, acquisition successes and failures, installation and

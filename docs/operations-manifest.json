@@ -225,7 +225,7 @@
         "evidence_class": "returned runtime observations; not a guarantee of continued residence or headroom"
       },
       "source_fetch": "One exact ordinary GitLab source attempt failed before HTTP; sole pinned source fallback received. This does not establish all other dependency hosts inaccessible.",
-      "next_missing_step": "Recover and independently audit the submitted offline packaging-bootstrap return. Private venv installation, actual pip target mode, packaging import and audio workers remain unestablished. No larger dependency/model upload follows from the two specific acquisition failures.",
+      "next_missing_step": "Review exact reusable guard bytes and a separately bounded output-cap fixture before any private bootstrap continuation. The accepted API diagnostic does not validate arbitrary-command guard behavior, fixture B or installation. Preserve failed fixture A and frozen acquire 0.1.0; a successful new bootstrap requires a new packet version/binding.",
       "native_audio_verified": false,
       "worker_bootstrap": {
         "status": "accepted_partial_with_guard_corrections_for_next_stage",
@@ -278,7 +278,7 @@
         "evidence_basis": "Archive hashes and arithmetic checked independently. Remote events remain receiver-reported, corroborated by returned source and command streams; no backend attestation or replay."
       },
       "worker_fallback": {
-        "status": "submitted_response_pending",
+        "status": "accepted_preserved_failure_with_unresolved_cleanup_identity",
         "submitted_utc": "2026-10-22T20:51:50.328Z",
         "attachment_count": 1,
         "archive_bytes": 136485,
@@ -286,7 +286,118 @@
         "scope": "Two exact packaging metadata/wheel assets only, justified by observed failed requests; coordinator provenance, bounded request and manifest included.",
         "receiving_request": "Fresh ABI/resource/controller/destination observations and corrected full memory minimum plus absolute-deadline harness; two tiny guard fixtures before conditional private offline installation.",
         "receiving_installation_accepted": false,
-        "larger_worker_or_model_fallback_inferred": false
+        "larger_worker_or_model_fallback_inferred": false,
+        "receiving_result_received": true,
+        "bootstrap_ready": false,
+        "private_packaging_install_verified": false,
+        "receiving_result": {
+          "archive_bytes": 86120,
+          "archive_sha256": "94fd2474405e140aec3c4dfa6c5c21855d1457587f52e9925839bf99dd71b5ba",
+          "members": 54,
+          "payload_rows": 53,
+          "all_payload_bindings_verified": true
+        },
+        "resource_snapshot": "Reported full conservative memory minimum passes; not a reservation or future guarantee.",
+        "fixture_a": {
+          "attempts": 1,
+          "passed": false,
+          "direct_reaped": true,
+          "command_deadline_observed": true,
+          "pipes_eof": true,
+          "descendant_cleanup_verified": false,
+          "owned_descendant_leak_proven": false,
+          "stat_parser_defect": false,
+          "identity_binding": "Process API numeric identities do not reconcile with visible /proc identities. Mechanism remains unresolved.",
+          "total_fixture_elapsed_seconds": 3.000183348000064
+        },
+        "stopped_before": [
+          "fixture B",
+          "guarded pip version/help checks",
+          "venv creation",
+          "installation",
+          "new venv packaging import"
+        ],
+        "prior_failures_reclassified": false
+      },
+      "process_api_diagnostic": {
+        "status": "accepted_bounded_same_process_API_compatibility_pass",
+        "submitted_utc": "2026-10-22T21:15:14.273Z",
+        "attachments": 0,
+        "scope": "One separate standard-library process-API lifecycle observation with fresh owned identity handshake. No fixture B, installation, network or audio.",
+        "prior_failed_bootstrap_unchanged": true,
+        "does_not_replace_remaining_guard_or_install_prerequisites": true,
+        "receiving_result_received": true,
+        "archive": {
+          "bytes": 34394,
+          "sha256": "3790940c48c758e0ee136d83ead73696249fb0d0a88278c15118137641468b81",
+          "members": 26,
+          "payload_rows": 25,
+          "all_bindings_verified": true
+        },
+        "attempts": 1,
+        "live_identity_binding": "Fresh nonce and direct/grandchild self identity, Popen identity and supervisor group observations agree through one process interface before release.",
+        "cleanup": {
+          "signals": 1,
+          "signal": "SIGTERM to fresh bound group",
+          "both_absence_checks": "ProcessLookupError errno ESRCH (3)",
+          "direct_reaped": true,
+          "actual_eof_both_pipes": true,
+          "forced_pipe_closures": false,
+          "elapsed_through_command_record_seconds": 1.0263103420002153,
+          "total_limit_seconds": 3,
+          "ordinary_command_succeeded": false
+        },
+        "source_sha256": "c1f58cf03bbff6921e0303a8b7b011c367b56541c015c45ed768794a93f738fa",
+        "limits": [
+          "This is one observed compatibility result through one process API, not two independent kernel implementations, physical host attestation, namespace diagnosis, reliability percentage or proof of arbitrary descendant cleanup.",
+          "The successful path used SIGTERM only. SIGKILL escalation, handshake failure, contradictory existence observations, forced pipe closure and output-cap exhaustion were not exercised.",
+          "The code is a diagnostic-specific supervisor. Its deliberate timeout is not ordinary command success or validation of a reusable installation command guard.",
+          "The first offline fixture's failed/uncertain result remains intact. Fixture B, controller checks, private venv creation and the offline packaging install still have no accepted execution result.",
+          "Remote execution and source-binding receipts are evidence returned by the collaborator. Local byte consistency, source logic and arithmetic were independently checked without replay; backend implementation and future scratch retention are not attested."
+        ],
+        "bootstrap_ready": false,
+        "installation_accepted_or_authorized": false,
+        "audio_or_model_acceptance": false
+      },
+      "voice_gate_acquire_preparation": {
+        "status": "prepared_tested_not_sent_blocked_on_bootstrap_acceptance",
+        "sent": false,
+        "archive": {
+          "file": "Resonance-Commons-Voice-Gate-GPT6-acquire-0.1.0.zip",
+          "bytes": 169774,
+          "sha256": "ac4150c0314de49c99d48d4e06228d79a5933f9f06ea6ccf8b70a25a954da516",
+          "regular_members": 24,
+          "expanded_bytes": 744361
+        },
+        "local_validation": {
+          "windows_passed": 16,
+          "windows_skipped": 1,
+          "wsl_passed": 17,
+          "wsl_skipped": 0,
+          "fixture_runtime": "WSL CPython 3.14.4; receiving target is CPython 3.12",
+          "live_network_install_or_audio_tested": false
+        },
+        "frozen_copied_files": 19,
+        "frozen_copied_bytes": 687695,
+        "frozen_copies_match": true,
+        "blockers": [
+          "Private bootstrap not accepted",
+          "Frozen version 0.1.0 binds the failed offline-001 directory; a successful new directory requires a separately versioned packet and binding"
+        ],
+        "scope": "Acquisition-only preparation with bounded ordinary retrieval and evidence-preserving refusal behavior; no install, native imports, model or audio execution.",
+        "later_stages_separate": [
+          "independent acquire-return audit and only demonstrated individual gaps",
+          "complete verified restoration",
+          "separate private install and native import checks",
+          "separate bounded controls with fresh gates"
+        ],
+        "coordinator_review": {
+          "status": "Accepted staged design; not dispatchable",
+          "outer_manifest_and_complete_source_request_reviewed": true,
+          "tests_rerun_by_coordinator": false,
+          "existing_version_dispatchable": false,
+          "remaining_prerequisite": "A successful private bootstrap in a new directory requires a separately versioned packet/binding. Version 0.1.0 hardcodes the failed offline-001 directory and must remain frozen."
+        }
       }
     },
     {
@@ -352,5 +463,14 @@
   },
   "remaining_product_gap": "Public source release contains foundation tools and fixtures only. Route-specific worker packages and the existing private local runtime do not constitute a generally distributed, tested worker installer for every target.",
   "followup_execution": "A proposed window is unexecuted. The coordinator selects an in-scope follow-up under current authorization; already-authorized inputs require no new permission.",
+  "quality_followup_candidate": {
+    "clip_id": "q93",
+    "status": "recommended_only_not_packaged_sent_or_executed",
+    "selected": false,
+    "packaged": false,
+    "dispatched": false,
+    "new_receiving_trial_established": false,
+    "basis": "Existing authorized local evidence only; evaluator details retained privately."
+  },
   "public_reference": "Dated operation reference; receiving outcomes must be rechecked before new work."
 }
